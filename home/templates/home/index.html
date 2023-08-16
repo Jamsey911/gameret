@@ -10,11 +10,11 @@
 {% endblock %}
 
 {% block content %}
-    <div class="container h-100">
+    <div class="container">
         <div class="row h-100">
             <div class="col-7 col-md-6 my-auto">
                 <h1 class="display-4 logo-font text-black">
-                    The new collections are here
+                    All the classics are here
                 </h1>
                 <div class="my-5">
                     <h4>
@@ -25,32 +25,32 @@
         </div>
     </div>
     <section class="container">
-        <!-- Reservations Card -->
         <div class="row d-flex my-5 justify-content-evenly text-center">
+            <!-- Consoles Card -->
             <div class="col-10 col-md-4 mt-4 grow card shadow ">
-                <a href="#" class="btn btn-outline-light h-100">
-                    <div class="row mt-3 mb-3">
-                        <img src="#" class="card-img-top rounded img-fluid"
+                <a href="#" class="btn h-100">
+                    <div class="row mt-3 mb-3 h-100">
+                        <img src="{% static 'images/consoles_card.jpg' %}" class="card-img-top rounded img-fluid"
                             alt="A photo of a table setting">
                             <p class="pt-2 button-card">Reservations<p>
                     </div>
                 </a>
             </div>
-            <!-- Food Menu Card -->
+            <!-- Games Card -->
             <div class="col-10 col-md-4 mt-4 grow card shadow">
-                <a href="#" class="btn btn-outline-light h-100">
+                <a href="#" class="btn h-100">
                     <div class="row mt-3 mb-3">
-                        <img src="#" class="card-img-top rounded img-fluid"
+                        <img src="{% static 'images/games_card.jpg' %}" class="card-img-top rounded img-fluid"
                             alt="A photo of a person eating a meal">
                             <p class="pt-2 button-card">Food Menu</p>
                     </div>
                 </a>
             </div>
-            <!-- Drinks Menu Card -->
+            <!-- Accessories Card -->
             <div class="col-10 col-md-4 mt-4 grow card shadow">
-                <a href="#" class="btn btn-outline-light h-100">
+                <a href="#" class="btn h-100">
                     <div class="row mt-3 mb-3">
-                        <img src="#" class="card-img-top rounded img-fluid"
+                        <img src="{% static 'images/accessories_card.jpg' %}" class="card-img-top rounded img-fluid"
                             alt="A photo of a glass of whiskey">
                             <p class="pt-2 button-card">Drinks Menu</p>
                     </div>
