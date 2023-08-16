@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-fsg$%jy@!4-%l8pu_k=+s*%r)hmbm0_n8_syfc!4_@5kf=uc!g
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["8000-jamsey911-gameret-7m9e69hia3j.ws-eu103.gitpod.io",
+ALLOWED_HOSTS = ["8000-jamsey911-gameret-7m9e69hia3j.ws-eu104.gitpod.io",
                  "localhost"]
 
 
