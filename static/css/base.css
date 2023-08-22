@@ -56,6 +56,10 @@ body {
     border: 1px solid black !important;
 }
 
+.bg-black {
+    background: #000 !important;
+}
+
 .card {
     background-color: rgb(0, 0, 0, 0.5);
     padding: 10px;
