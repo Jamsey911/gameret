@@ -83,6 +83,10 @@ body {
     transform: scale(1.1);
 }
 
+.main-nav {
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
