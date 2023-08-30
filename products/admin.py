@@ -1,5 +1,5 @@
 """
-Imports for the porducts admin
+Imports for the products admin
 """
 from django.contrib import admin
 from .models import Product, Category
