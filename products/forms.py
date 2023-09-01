@@ -2,16 +2,19 @@
 Imports for the porducts admin
 """
 from django import forms
+from .widgets import CustomClearableFileInput
 from .models import Product, Category
 
 
 class ProductForm(forms.ModelForm):
     """
-    Imports for the porducts admin
+    Products form for admin
     """
     class Meta:
         model = Product
         fields = '__all__'
+
+    image = forms.ImageField(label='Image', required=False, widget=CustomClearableFileInput)
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
