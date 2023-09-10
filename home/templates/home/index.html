@@ -11,9 +11,9 @@
 
 {% block content %}
     <div class="container">
-        <div class="row h-100">
-            <div class="col-7 col-md-6 my-auto">
-                <h1 class="display-4 logo-font text-black">
+        <div class="row h-100 justify-content-around my-5 text-center">
+            <div class="col-7 col-md-6 my-auto ">
+                <h1 class="display-4 logo-font text-light">
                     All the classics are here
                 </h1>
                 <div class="my-5">
@@ -27,32 +27,32 @@
     <section class="container">
         <div class="col-12 row d-flex justify-content-around my-5 text-center cards">
             <!-- Consoles Card -->
-            <div class="col-md-3 mt-4 grow card shadow ">
-                <a href="#" class="btn">
-                    <div class="row mt-3 mb-3">
+            <div class="col-md-3 mt-4 grow card text-white bg-dark mb-0 shadow">
+                <a href="{% url 'products' %}?category=playstation,xbox,nintendo,retro" class="btn rounded-0 text-uppercase">
+                    <div class="row mt-1 mb-1">
                         <img src="{% static 'images/consoles_card.jpg' %}" class="rounded img-fluid"
-                            alt="A photo of a table setting">
-                            <p class="pt-2 button-card">Consoles<p>
+                            alt="A photo of a video game console">
+                            <p class="pt-3 button-card ">Consoles<p>
                     </div>
                 </a>
             </div>
             <!-- Games Card -->
-            <div class="col-md-3 mt-4 grow card shadow">
-                <a href="#" class="btn">
-                    <div class="row mt-3 mb-3">
+            <div class="col-md-3 mt-4 grow card text-white bg-dark mb-0 shadow">
+                <a href="{% url 'products' %}?category=retro_video_games,new_gen_video_games" class="btn rounded-0 text-uppercase">
+                    <div class="row mt-1 mb-0">
                         <img src="{% static 'images/games_card.jpg' %}" class="rounded img-fluid"
-                            alt="A photo of a person eating a meal">
-                            <p class="pt-2 button-card">Games</p>
+                            alt="A photo of multiplpe video games">
+                            <p class="pt-3 button-card">Games</p>
                     </div>
                 </a>
             </div>
             <!-- Accessories Card -->
-            <div class=" col-md-3 mt-4 grow card shadow">
-                <a href="#" class="btn">
-                    <div class="row mt-3 mb-3">
+            <div class=" col-md-3 mt-4 grow card text-white bg-dark mb-0 shadow">
+                <a href="{% url 'products' %}?category=playstation_accessories,xbox_accessories,nintendo_accessories,retro_accessories" class="btn rounded-0 text-uppercase">
+                    <div class="row mt-1 mb-0">
                         <img src="{% static 'images/accessories_card.jpg' %}" class="rounded img-fluid"
-                            alt="A photo of a glass of whiskey">
-                            <p class="pt-2 button-card">Accessories</p>
+                            alt="A photo of video game accessories">
+                            <p class="pt-3 button-card">Accessories</p>
                     </div>
                 </a>
             </div>

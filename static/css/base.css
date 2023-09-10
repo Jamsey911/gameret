@@ -3,10 +3,10 @@ html {
 }
 
 body {
-    background: url('/media/homepage_background_cropped.jpg') no-repeat center center fixed;
+    background: url('/media/background_cropped.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
-    color: #555;
+    color: #fdfdf6;
     font-family: 'Lato';
 }
 
@@ -27,9 +27,10 @@ body {
     width: fit-content;
 }
 
+
 .shop-now-button {
-    background: black;
-    color: white;
+    background: #fdfdf6;
+    color: #222;
     min-width: 260px;
 }
 
@@ -48,7 +49,12 @@ body {
 .btn-outline-black:active,
 .btn-outline-black:focus {
     background: black;
-    color: white !important;
+    color: #fdfdf6 !important;
+}
+
+.add-to-bag-button:hover {
+    background: #222;
+    color: #fdfdf6;
 }
 
 .shop-now-button:hover,
@@ -58,7 +64,11 @@ body {
 .btn-black:active,
 .btn-black:focus {
     background: #222;
-    color: white;
+    color: #fdfdf6;
+}
+
+.text-light {
+    color: #fdfdf6 !important;
 }
 
 .text-black {
@@ -79,8 +89,9 @@ body {
 }
 
 .button-card {
-    font-size: 150%;
-    color: white;
+    font-size: 130%;
+    color: #fdfdf6;
+    width: 100%;
 }
 
 .grow {
@@ -91,23 +102,25 @@ body {
     transform: scale(1.1);
 }
 
-.main-nav {
-    background-color: rgb(0, 0, 0, 0.5);
-}
-
 .overlay {
 	height: 100%;
 	width: 100%;
 	top: 0;
 	left: 0;
 	position: fixed;
-	background: white;
+	background: #222;
 	z-index: -1;
+}
+
+hr{
+    height: 1px;
+    background-color: #fdfdf6;
+    border: none;
 }
 
 a.category-badge > span.badge:hover {
     background: #212529 !important;
-    color: #fff !important;
+    color: #fdfdf6 !important;
 }
 
 .btt-button {
