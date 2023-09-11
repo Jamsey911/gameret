@@ -2,6 +2,14 @@ html {
     height: 100%;
 }
 
+::-webkit-scrollbar {
+    background: #6c757d;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #198754;
+}
+
 body {
     background: url('/media/background_cropped.jpg') no-repeat center center fixed;
     background-size: cover;
@@ -136,6 +144,16 @@ a.category-badge > span.badge:hover {
 .update-link,
 .remove-item {
     cursor: pointer;
+}
+
+
+.pagination-underline {
+    text-decoration: underline;
+    color: #f8f9fa;
+}
+.pagination-underline:hover {
+    text-decoration: underline;
+    text-decoration-color: #f8f9fa;
 }
 
 /* ------------------------------- bootstrap toasts */

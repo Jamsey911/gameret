@@ -120,12 +120,30 @@
                         {% endif %}
                     {% endfor %}
                 </div>
+                <!-- pagination -->
+                <div class="row d-flex my-5 justify-content-center flex-column text-center">
+
+                    {% if products.has_previous %}
+        
+                    <a href="?page=1" class="pagination-underline">&laquo First</a>
+                    <a href="?page={{ products.previous_page_number }}" class="pagination-underline">Previous</a>
+        
+                    {% endif %}
+                    Page {{ products.number }} of {{ products.paginator.num_pages }}
+        
+                    {% if products.has_next %}
+        
+                    <a href="?page={{ product.next_page_number }} " class="pagination-underline">Next</a>
+                    <a href="?page={{ product.paginator.num_pages }}" class="pagination-underline">Last &raquo</a>
+        
+                    {% endif %}
+                </div>
             </div>
         </div>
     </div>
-    <div class="btt-button shadow-sm rounded-0 border border-black">
+    <div class="btt-button shadow-sm rounded-0 border border-light">
         <a class="btt-link d-flex h-100">
-            <i class="fas fa-arrow-up text-black mx-auto my-auto"></i>
+            <i class="fas fa-arrow-up text-light mx-auto my-auto"></i>
         </a>	
     </div>
 {% endblock %}
