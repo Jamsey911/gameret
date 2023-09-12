@@ -6,6 +6,7 @@ from django.db.models import Q
 from django.db.models.functions import Lower
 from django.core.paginator import Paginator
 
+
 from .models import Product, Category
 from .forms import ProductForm
 
@@ -62,7 +63,7 @@ def all_products(request):
         'current_sorting': current_sorting,
     }
 
-    return render(request, 'products/products.html', context)
+    return render(request, 'products/products.html',  context)
 
 
 def product_detail(request, product_id):

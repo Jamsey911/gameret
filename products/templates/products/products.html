@@ -133,8 +133,8 @@
         
                     {% if products.has_next %}
         
-                    <a href="?page={{ product.next_page_number }} " class="pagination-underline">Next</a>
-                    <a href="?page={{ product.paginator.num_pages }}" class="pagination-underline">Last &raquo</a>
+                    <a href="?page={{ products.next_page_number }} " class="pagination-underline">Next</a>
+                    <a href="?page={{ products.paginator.num_pages }}" class="pagination-underline">Last &raquo</a>
         
                     {% endif %}
                 </div>
