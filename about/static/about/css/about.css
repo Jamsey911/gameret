@@ -1,0 +1,47 @@
+/* Colors pallet */
+:root {
+    --white: #fff;
+    --black: #000000;
+    --dark:#332D2D;
+    --hover-active:#007bff;
+  }
+  
+  .top-section {
+      background: url('/media/nin_pad.jpg') center/cover no-repeat;
+      height: 50vh;
+      margin-top: 80px;
+  }
+  
+  .about-us-section {
+    background-color:var(--black);
+    padding: 20px;
+  }
+  
+  .image-column {
+    background-color:var(--black);
+    padding: 20px;
+    position: relative;
+  }
+  
+  .orange-row {
+    background-color: red;
+  }
+  
+  .contact-row {
+    background-color: var(--black);
+  }
+  
+  .contact-img {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: var(--black);
+      border: 1px solid #464545;
+      padding: 20px;
+  }
+  
+  .about-img{
+    max-height: 750px;
+    max-width: 650px;
+  }
+  
