@@ -8,12 +8,12 @@
   
   .top-section {
       background: url('/media/nin_pad.jpg') center/cover no-repeat;
-      height: 50vh;
-      margin-top: 80px;
+      height: 60vh;
+
   }
   
   .about-us-section {
-    background-color:var(--black);
+    background: rgba(14, 3, 3, 0.6);
     padding: 20px;
   }
   
@@ -41,7 +41,7 @@
   }
   
   .about-img{
-    max-height: 750px;
-    max-width: 650px;
+    max-height: 700px;
+    max-width: 600px;
   }
   
