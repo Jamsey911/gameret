@@ -15,14 +15,14 @@
     <div class="row d-flex justify-content-center">
         <div class=" col-xl-5 col-md-12 about-us-section">
             <h2 class="p-3 w-50 mx-auto">About Us</h2>
-            <p class="p-3  mx-auto">Welcome to N-Blade, your premier destination for high-quality folding custom
-                knives. Founded by J. Nemeth, a master knife maker hailing from Hungary and currently residing in the
-                picturesque south of Ireland. With a passion for knives that spans over six years, J.Nemeth has
-                established a reputation for delivering exceptional craftsmanship and attention to detail in every blade
-                he creates. Serving the Hungarian and European market, N-Blade is committed to providing knife
+            <p class="p-3  mx-auto">Welcome to GAMERET, your premier destination for all your favouite games, consoles and 
+                accessories . Founded by J. Lynch, a ex-professional Postman from Ireland and currently residing in the
+                picturesque north of Dublin. With a passion for gaming that spans a lifetime, J.Lynch has
+                established a reputation for delivering exceptional customer service and attention to detail in every transaction
+                he creates. Serving the Irish and European market, GAMERET is committed to providing quality
                 enthusiasts with finely crafted, bespoke folding knives that embody the perfect blend of functionality
-                and artistry. Explore our collection and experience the unparalleled quality and dedication that goes
-                into each N-Blade creation.</p>
+                and validation. Explore our collection and experience the unparalleled quality and dedication that goes
+                into each GAMERET product.</p>
         </div>
         <div class="col-xl-7 col-md-7 col-12 m-auto p-4 d-flex justify-content-center">
             <img src="{{ MEDIA_URL }}about_1.jpg" alt="" class="img-fluid">
@@ -34,10 +34,10 @@
     <div class="row contact-row justify-content-between p-4" id="contact">
         <div class="col-md-5 contact-column pb-4" >
             <!-- Contact Form inserted here -->
-            <form action="#" method="POST">
+            <form action="{% url 'about:about' %}" method="POST">
                 {% csrf_token %}
                 {{ form|crispy }}
-                <button type="submit" class="btn btn-success">Send message</button>
+                <button type="submit" class="btn btn-light">Send message</button>
             </form>
         </div>
         <div class="col-md-5 image-column pt-0">
