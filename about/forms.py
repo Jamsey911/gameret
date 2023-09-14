@@ -14,7 +14,7 @@ class ContactForm(forms.ModelForm):
     """
     class Meta:
         """
-        Contact model form
+        Overriding init method and adding placeholders to form fields
         """
         model = Contact
         fields = '__all__'
@@ -22,7 +22,6 @@ class ContactForm(forms.ModelForm):
     def __init__(self, *args, **kwargs):
 
         super().__init__(*args, **kwargs)
-        # overriding init method and adding placeholders to form fields
         placeholders = {
             'name': 'Name',
             'email': 'Email Address',
