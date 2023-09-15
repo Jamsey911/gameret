@@ -95,6 +95,39 @@
                 {% include 'includes/main-nav.html' %}
             </nav>
         </div>
+        <!-- Free delivery banner -->
+
+        {% if "products" in request.path or "basket" in request.path %}
+        <div id="delivery-banner" class="row secondary-bg text-center">
+            <div class="col-12">
+                <div id="delivery-slider" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item text-center secondary-bg active">
+                            <h4 class="banner-font"><i
+                                    class="fa-solid fa-sm- fa-flip-horizontal fa-truck banner-icon"></i> Free
+                                nationwide delivery on orders over €{{ free_delivery_threshold }}!</h4>
+                        </div>
+                        {% if free_delivery_delta == 0 %}
+                        <div class="carousel-item text-center secondary-bg">
+                            <h4 class="banner-font"><i class="fa-solid fa-flip-horizontal fa-truck banner-icon"></i>
+                                Congratulations... You qualify for free delivery!!!</h4>
+                        </div>
+                        {% else %}
+                        <div class="carousel-item text-center secondary-bg">
+                            <h4 class="banner-font"><i class="fa-solid fa-flip-horizontal fa-truck banner-icon"></i>
+                                Spend just <strong>€{{ free_delivery_delta }} more to qualify for free
+                                    delivery!</strong></h4>
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% else %}
+        <div class="row nav-footer">
+
+        </div>
+        {% endif %}
     </header>
 
     {% if messages %}
