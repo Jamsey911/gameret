@@ -163,6 +163,7 @@ a.category-badge > span.badge:hover {
     font-style: italic;
     padding: 8px 0;
     background: #222;
+    text-decoration-line: underline;
 }
 
 /* ------------------------------- bootstrap toasts */
