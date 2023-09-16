@@ -57,7 +57,7 @@ def all_products(request):
     current_sorting = f'{sort}_{direction}'
 
     context = {
-        'products': paged_products,  # Make sure to pass the paged products, not all products
+        'products': paged_products,
         'search_term': query,
         'current_categories': categories,
         'current_sorting': current_sorting,

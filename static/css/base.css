@@ -129,8 +129,8 @@ hr{
 }
 
 a.category-badge > span.badge:hover {
-    background: #fdfdf6  !important;
-    color: #212529 !important;
+    background: #212529  !important;
+    color: #fdfdf6 !important;
 }
 
 .btt-button {
