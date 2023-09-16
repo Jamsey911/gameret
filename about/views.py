@@ -40,11 +40,11 @@ def about(request):
                 email_from,
                 email_to
             )
-            messages.success(request, f'Your message was sent successfuly')
+            messages.success(request, 'Your message was sent successfuly')
             return redirect(reverse('about:about'))
 
         else:
-            messages.error(request, f'An error occured please check the form')
+            messages.error(request, 'An error occured please check the form')
 
     context = {
         'form': form,
