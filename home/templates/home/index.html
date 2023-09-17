@@ -11,8 +11,8 @@
 
 {% block content %}
     <div class="container">
-        <div class="row h-100 justify-content-around my-5 text-center">
-            <div class="col-7 col-md-6 my-auto ">
+        <div class="main-logo row h-100 d-flex justify-content-around my-5 text-center">
+            <div class="my-auto">
                 <h1 class="display-4 logo-font text-light">
                     All the classics are here
                 </h1>
@@ -25,9 +25,9 @@
         </div>
     </div>
     <section class="container">
-        <div class="col-12 row d-flex justify-content-around my-5 text-center cards">
+        <div class="row d-flex justify-content-around my-5 text-center cards">
             <!-- Consoles Card -->
-            <div class="col-md-3 mt-4 grow card text-white bg-dark mb-0 shadow">
+            <div class="col-md-3 mt-4 grow card text-white bg-dark shadow">
                 <a href="{% url 'products' %}?category=playstation,xbox,nintendo,retro" class="btn rounded-0 text-uppercase">
                     <div class="row mt-1 mb-1">
                         <img src="{% static 'images/consoles_card.jpg' %}" class="rounded img-fluid"
@@ -37,7 +37,7 @@
                 </a>
             </div>
             <!-- Games Card -->
-            <div class="col-md-3 mt-4 grow card text-white bg-dark mb-0 shadow">
+            <div class="col-md-3 mt-4 grow card text-white bg-dark shadow">
                 <a href="{% url 'products' %}?category=retro_video_games,new_gen_video_games" class="btn rounded-0 text-uppercase">
                     <div class="row mt-1 mb-0">
                         <img src="{% static 'images/games_card.jpg' %}" class="rounded img-fluid"
@@ -47,7 +47,7 @@
                 </a>
             </div>
             <!-- Accessories Card -->
-            <div class=" col-md-3 mt-4 grow card text-white bg-dark mb-0 shadow">
+            <div class=" col-md-3 mt-4 grow card text-white bg-dark shadow">
                 <a href="{% url 'products' %}?category=playstation_accessories,xbox_accessories,nintendo_accessories,retro_accessories" class="btn rounded-0 text-uppercase">
                     <div class="row mt-1 mb-0">
                         <img src="{% static 'images/accessories_card.jpg' %}" class="rounded img-fluid"
