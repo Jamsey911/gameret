@@ -37,7 +37,7 @@ def about(request):
                 subject,
                 message,
                 email_from,
-                [email_to]
+                email_to
             )
             messages.success(request, 'Your message was sent successfuly')
             return redirect(reverse('about:about'))
