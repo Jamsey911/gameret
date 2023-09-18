@@ -194,3 +194,169 @@ Gameret uses Mailchimp to manage its mailing list. By joining the mailing list, 
 | 31 | Store Owner / Admin | edit a product | edit existing products in the shop |
 | 32 | Store Owner / Admin | delete a product | delete existing products from the shop |
 | 33 | Store Owner / Admin | view messages sent in by public | gather feedback and converse its with its community|
+
+
+### Kanban, Epics & User Stories
+- GitHub Kanban was used to track all open user stories
+- The Milestones feature was used to create Epics
+- Todo, In Progress, Done headings were used in the kanban
+
+<details><summary>Epic Overview</summary>
+
+![Epics](docs/user_stories/Epics.PNG)
+</details>
+
+<details><summary>Epic 1</summary>
+
+![Epic 1](docs/user_stories/us_1.PNG)
+</details>
+
+<details><summary>Epic 2</summary>
+
+![Epic 2](docs/user_stories/us_2.PNG)
+</details>
+
+<details><summary>Epic 3</summary>
+
+![Epic 3](docs/user_stories/us_3.PNG)
+</details>
+
+<details><summary>Epic 4</summary>
+
+![Epic 4](docs/user_stories/us_4.PNG)
+</details>
+
+<details><summary>Epic 5</summary>
+
+![Epic 5](docs/user_stories/us_5.PNG)
+</details>
+
+<details><summary>User Stories</summary>
+
+![User stories](docs/user_stories/user_stories_1.png)
+![User stories](docs/user_stories/user_stories_2.png)
+
+</details>
+
+<details><summary>Kanban</summary>
+
+![Kanban](docs/user_stories/kanban.PNG)
+
+</details>
+
+
+##### Back to [top](#table-of-contents)<hr>
+
+<!-- ## Wireframes
+I used Balsamiq to create wireframes for my project. It's a user-friendly wireframing tool that enables me to quickly and easily create mockups for my website or application. It offers a wide range of pre-built UI elements, and allows for easy collaboration with my team. I linked a pdf of my wireframes, which you can access it and check it out the design, layout and the flow of the project before implementing it in the real product.  
+
+<a href="https://github.com/ArronBeale/CI_PP5_tee_time/raw/main/docs/wireframes/wireframes-teetime.pdf" target="_blank">Download Wireframes PDF</a>  
+(Ctrl + click to open in new tab)  
+
+<details><summary>Wireframe Home</summary>  
+
+![Epics](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-home.PNG)
+</details>
+
+<details><summary>Wireframe Profile</summary>  
+
+![Epic 1](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-profile.PNG)
+</details>
+
+<details><summary>Wireframe Clubs</summary>  
+
+![Epic 2](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-clubs.PNG)
+</details>
+
+<details><summary>Wireframe Club Detail</summary>  
+
+![Epic 3](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-club-detail-01.PNG)
+![Epic 3](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-club-detail-02.PNG)
+</details>
+
+<details><summary>Wireframe Shop</summary>  
+
+![Epic 4](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-shop.PNG)
+</details>  
+
+<details><summary>Wireframe Product Detail</summary>  
+
+![Epic 4](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-product-detail.PNG)
+</details> 
+
+<details><summary>Wireframe Checkout</summary>  
+
+![Epic 4](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-checkout.PNG)
+</details>  
+
+<hr> -->
+
+## Design
+
+### Colors
+
+
+The colour sheme was chosen as a dark grey and black theme in which i was aided by Adobe Color by using their Split Complementary Color feature. A simple grey and egg-shell white was used to give it contrast which was selected also through adobe color. A slighly dark grey was selected for certain elements in the events page.  
+<details><summary>See Color Palette</summary>
+
+![Color Palette](docs/design/colors.PNG)
+</details>
+
+### Fonts
+
+ The font selected was from Google Fonts, Roboto.
+
+ <details><summary>See Font Image</summary>
+
+![Font Image](docs/design/font.PNG)
+</details>
+<hr>
+
+# Structure
+
+The home page is designed to have all relevanet information easily accessible with all relevent navigation clearly visible. The logo is postioned on the left with the bag information to the right. The search navigation information is postioned just below the logo and bag information centrally and this is shown on all pages in the same layout. The design is created also to be responsive on all viewports while maintaing all relevant information:
+
+## Website pages
+
+- The site consists of the following pages:
+  - Home
+  - Product List
+  - Edit product
+  - Delete product
+  - Product Expanded
+  - Basket
+  - Checkout
+  - Checkout Success
+  - About
+  - Register
+  - Profile
+  - Login
+  - Logout
+  - Reset Password
+  - Register
+  - 404
+  - 500
+
+  ##### Back to [top](#table-of-contents)
+  <hr>
+
+## AWS 
+
+AWS (Amazon Web Services) was utilized in this project for hosting image files. An S3 bucket on AWS was created to store and serve the project's images, providing a reliable and scalable solution for managing and delivering the visual assets. With AWS, the project benefits from secure and efficient storage capabilities, ensuring seamless access to images throughout the application.
+
+<details><summary>See AWS Images</summary>
+
+![aws bucket](docs/design/aws.PNG)
+</details>
+<hr>
+
+
+## Database
+
+I built my database using PostgreSQL. It's a powerful and open-source object-relational database system that is known for its reliability, robustness, and performance. I chose it because it provides a flexible tool for efficiently managing and organizing my data.
+
+<details><summary>Database Schema</summary>
+
+![Database Schema](docs/design/schema.PNG)  
+
+
