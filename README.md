@@ -344,7 +344,7 @@ The home page is designed to have all relevanet information easily accessible wi
 
 AWS (Amazon Web Services) was utilized in this project for hosting image files. An S3 bucket on AWS was created to store and serve the project's images, providing a reliable and scalable solution for managing and delivering the visual assets. With AWS, the project benefits from secure and efficient storage capabilities, ensuring seamless access to images throughout the application.
 
-<details><summary>See AWS Images</summary>
+<details><summary>AWS Image</summary>
 
 ![aws bucket](docs/design/aws.PNG)
 </details>
@@ -358,5 +358,236 @@ I built my database using PostgreSQL. It's a powerful and open-source object-rel
 <details><summary>Database Schema</summary>
 
 ![Database Schema](docs/design/schema.PNG)  
+
+## Models  
+
+### User Model
+
+| Key        | Name         | Type        |
+| ---------- | ------------ | ----------- |
+| PrimaryKey | User         | AutoField   |
+|            | password     | VARCHAR(45) |
+|            | last_login   | VARCHAR(45) |
+|            | is_superuser | BOOLEAN     |
+|            | username     | VARCHAR(45) |
+|            | first_name   | VARCHAR(45) |
+|            | last_name    | VARCHAR(45) |
+|            | email        | VARCHAR(45) |
+|            | is_staff     | BOOLEAN     |
+|            | is_active    | BOOLEAN     |
+|            | date_joined  | VARCHAR(45) |
+
+### User Profile Model
+
+| Key        | Name                 | Type          |
+| ---------- | -------------------- | ------------- |
+| PrimaryKey | User                 | AutoField     |
+|            | default_phone_number | CharField[20] |
+|            | default_address1     | CharField[80] |
+|            | default_address2     | CharField[80] |
+|            | default_town_city    | CharField[40] |
+|            | default_county       | CharField[80] |
+|            | default_postcode     | CharField[20] |
+|            | default_country      | CharField[40] |
+
+### Product Model
+
+| Key        | Name        | Type           |
+| ---------- | ----------- | -------------- |
+| PrimaryKey | category    | AutoField      |
+|            | sku         | CharField[50]  |
+|            | name        | CharField[50]  |
+|            | description | TextField      |
+|            | price       | DecimalField   |
+| ForeignKey | category    | Category model |
+|            | rating      | DecimalField   |
+|            | image       | ImageField     |
+|            | image_url   | CharField[1024]|
+
+### Category Model  
+
+| Key        | Name          | Type      |
+| ---------- | ------------- | --------- |
+| PrimaryKey | category_id   | AutoField |
+|            | name          | Char[254] |
+|            | friendly_name | Char[254] |
+
+### Order Model  
+
+| Key        | Name            | Type               |
+| ---------- | --------------- | ------------------ |
+| PrimaryKey | order_number        | AutoField      |
+| ForeignKey | user_profile    | User profile Model |
+|            | full_name       | CharField[50]      |
+|            | email           | EmailField[254]    |
+|            | phone_number    | CharField[20]      |
+|            | address1        | CharField[80]      |
+|            | address2        | CharField[80]      |
+|            | town_city       | CharField[40]      |
+|            | postcode        | CharField[20]      |
+|            | county          | CharField[80]      |
+|            | country         | CharField[40]      |
+|            | date            | DateTimeField      |
+|            | delivery_cost   | DecimalField[6]    |
+|            | order_total     | DecimalField[10]   |
+|            | grand_total     | DecimalField[10]   |
+|            | original_basket | TextField          |
+|            | stripe_pid      | CharField          |
+
+### OrderLineItem Model  
+
+| Key        | Name             | Type            |
+| ---------- | ---------------- | --------------- |
+| PrimaryKey | OrderLineItem_id | AutoField       |
+| ForeignKey | order            | Order Model     |
+| ForeignKey | product          | Product Model   |
+|            | quantity         | IntegerField    |
+|            | line_item_total  | DecimalField[6] |
+
+### ContactUs Model
+
+| Key        | Name         | Type             |
+| ---------- | ------------ | ---------------- |
+| PrimaryKey | contact      | AutoField        |
+|            | inquiry_pur..| DateTimeField    |
+|            | name         | CharField        |
+|            | email        | EmailField       |
+|            | phone        | PhoneNumberField |
+|            | message      | TextField        |  
+|            | date_submm.. | DateTimeField    | 
+
+##### Back to [top](#table-of-contents)
+<hr>
+
+## Technologies Used
+
+### Languages & Frameworks
+
+- HTML
+- CSS
+- Javascript
+- Python
+- Django
+
+
+### Libraries & Tools
+
+- [Am I Responsive](http://ami.responsivedesign.is/)
+- [Balsamiq](https://balsamiq.com/)
+- [Bootstrap v5.2](https://getbootstrap.com/)
+- [Cloudinary](https://cloudinary.com/)
+- [Favicon.io](https://favicon.io)
+- [Chrome dev tools](https://developers.google.com/web/tools/chrome-devtools/)
+- [Font Awesome](https://fontawesome.com/)
+- [Git](https://git-scm.com/)
+- [GitHub](https://github.com/)
+- [Google Fonts](https://fonts.google.com/)
+- [Heroku Platform](https://id.heroku.com/login)
+- [AWS](https://aws.amazon.com/)
+- [jQuery](https://jquery.com)
+- [Postgres](https://www.postgresql.org/)
+- [Summernote](https://summernote.org/)
+- Validation:
+  - [WC3 Validator](https://validator.w3.org/)
+  - [Jigsaw W3 Validator](https://jigsaw.w3.org/css-validator/)
+  - [JShint](https://jshint.com/)
+  - [CI Python Liner(PEP8)](https://pep8ci.herokuapp.com/)
+  - [Lighthouse](https://developers.google.com/web/tools/lighthouse/)
+  - [Wave Validator](https://wave.webaim.org/)
+
+
+## Features  
+
+
+### Search Engine Optimisation (SEO)
+I have used meta tags in the HTML of my web app's pages to optimize them for search engines. The description tag provides a brief summary of the content on the page, while the keywords tag lists relevant keywords to help search engines understand the content of the webpage and its relevance to related search queries.
+
+
+<details><summary>See feature image</summary>
+
+![SEO](docs/features/seo.PNG)
+</details>  
+
+### Home page
+- Home page includes nav bar, main body and a footer.
+
+
+<details><summary>See feature images</summary>
+
+![Home page](docs/features/home.PNG)
+</details>  
+
+
+### Logo
+- A custom logo for the business.
+- User stories covered: 6, 7
+
+<details><summary>See feature images</summary>
+
+![Logo](docs/features/logo.PNG)
+</details>  
+
+
+### Navigation
+- Fully Responsive.
+- On small screens switches to hamburger menu.
+- Indicates login/logout in status.
+- displayed on all pages.  
+- User stories covered: 6, 7
+
+<details><summary>See feature images</summary>
+
+![Navigation](docs/features/nav.PNG)
+</details>
+
+
+### Footer
+- Contains social media links, privacy policy, and copyright.
+- displayed across all pages.  
+- User stories covered: 6, 7
+
+<details><summary>See feature images</summary>
+
+![Footer](docs/features/footer.PNG)
+</details>  
+
+### Mailing List Sign Up
+- Mailchimp signup for email mailing list.  
+
+<details><summary>See feature images</summary>
+
+![Mailing](docs/features/mailchimp.PNG)
+</details>
+
+
+### Sign up / Register
+- Allow users to register an acoount.
+- User stories covered: 1  
+
+<details><summary>See feature image</summary>
+
+![Signup](docs/features/signup.PNG)
+</details>
+
+
+### Sign In
+- User can sign in.  
+- User stories covered: 2
+
+<details><summary>See feature images</summary>
+
+![Signin](docs/features/signin.PNG)
+</details>
+
+
+### Sign Out
+- Allows the user to securely sign out.
+- Ask user if they are sure they want to sign out.  
+- User stories covered: 2
+
+<details><summary>See feature image</summary>
+
+![Sign out](docs/features/signout.PNG)
+</details>  
 
 
