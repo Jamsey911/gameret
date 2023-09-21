@@ -189,11 +189,13 @@ Gameret uses Mailchimp to manage its mailing list. By joining the mailing list, 
 | 27 | Shopper / Site User | adjust item quantity in my basket | increase or reduce item count according to my needs |
 | 28 | Shopper / Site User | receive order confirmation | be notified of a successful order |
 | 29 | Shopper / Site User | receive email confirmation | have a record of my purchase |
+| 30 | Shopper / Site User | subscribe to a newsletter | Keep updated with the latest new from the store |
 | Admin and Store Management | | | |
-| 30 | Store Owner / Admin | add a product | add new products to the shop |
-| 31 | Store Owner / Admin | edit a product | edit existing products in the shop |
-| 32 | Store Owner / Admin | delete a product | delete existing products from the shop |
-| 33 | Store Owner / Admin | view messages sent in by public | gather feedback and converse its with its community|
+| 31 | Store Owner / Admin | add a product | add new products to the shop |
+| 32 | Store Owner / Admin | edit a product | edit existing products in the shop |
+| 33 | Store Owner / Admin | delete a product | delete existing products from the shop |
+| 34 | Store Owner / Admin | view messages sent in by public | gather feedback and converse its with its community|
+
 
 
 ### Kanban, Epics & User Stories
@@ -357,7 +359,8 @@ I built my database using PostgreSQL. It's a powerful and open-source object-rel
 
 <details><summary>Database Schema</summary>
 
-![Database Schema](docs/design/schema.PNG)  
+![Database Schema](docs/design/schema.PNG)
+</details>
 
 ## Models  
 
@@ -511,12 +514,10 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 ### Home page
 - Home page includes nav bar, main body and a footer.
 
-
 <details><summary>See feature images</summary>
 
 ![Home page](docs/features/home.PNG)
 </details>  
-
 
 ### Logo
 - A custom logo for the business.
@@ -526,7 +527,6 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 ![Logo](docs/features/logo.PNG)
 </details>  
-
 
 ### Navigation
 - Fully Responsive.
@@ -540,10 +540,18 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 ![Navigation](docs/features/nav.PNG)
 </details>
 
+### Card Links
+- Allows the user to easy access filters  
+- User stories covered: 6, 12, 14, 15, 16
+
+<details><summary>See feature image</summary>
+
+![Card Links](docs/features/home_cards.PNG)
+</details>
 
 ### Footer
 - Contains social media links, privacy policy, and copyright.
-- displayed across all pages.  
+- displayed on home page and about page 
 - User stories covered: 6, 7
 
 <details><summary>See feature images</summary>
@@ -553,12 +561,23 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 ### Mailing List Sign Up
 - Mailchimp signup for email mailing list.  
+- User stories covered: 30
 
 <details><summary>See feature images</summary>
 
 ![Mailing](docs/features/mailchimp.PNG)
 </details>
 
+### Social Media Links
+- An icon with a link is used for each social media displayed
+- Each link opens in a new tab so the user has access to the website after being redirected
+- displayed on home page and about page 
+- User stories covered: 7
+
+<details><summary>See feature images</summary>
+
+![Mailing](docs/features/media_links.PNG)
+</details>
 
 ### Sign up / Register
 - Allow users to register an acoount.
@@ -569,7 +588,6 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 ![Signup](docs/features/signup.PNG)
 </details>
 
-
 ### Sign In
 - User can sign in.  
 - User stories covered: 2
@@ -578,7 +596,6 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 ![Signin](docs/features/signin.PNG)
 </details>
-
 
 ### Sign Out
 - Allows the user to securely sign out.
@@ -589,5 +606,188 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 ![Sign out](docs/features/signout.PNG)
 </details>  
+
+### Products View
+- Allows the user to view all listed products. 
+- User stories covered: 12, 14, 15, 16
+
+<details><summary>See feature image</summary>
+
+![Golf Club Detail](docs/features/products.PNG)
+</details>
+
+### Products detail 
+- Allows the user to view details of a specific product. 
+- User stories covered: 13, 17, 18, 19
+
+<details><summary>See feature images</summary>
+
+![product](docs/features/products_detail.PNG)
+</details>
+
+### Bag
+- Allows the user to view the basket with their items. 
+- User stories covered: 11, 26
+
+<details><summary>See feature image</summary>
+
+![bag](docs/features/bag.PNG)
+</details>  
+
+
+### Checkout View
+- Allows user to purchase products.  
+- User stories covered: 24
+
+<details><summary>See feature image</summary>
+
+![Checkout](docs/features/checkout.PNG)
+</details> 
+
+
+### Edit Product Quantity
+- Allows the user to edit their bookings.  
+- User stories covered: 25, 27
+
+<details><summary>See feature image</summary>
+
+![Edit Product](docs/features/edit.png)
+![Edit Product In Bag](docs/features/edit_bag.png)
+</details>  
+
+
+### Delete Product From Bag
+- Allows the user to cancel their bookings.  
+- User stories covered: 25, 27
+
+<details><summary>See feature image</summary>
+
+![Delete Product](docs/features/delete_bag.png)
+</details>  
+
+
+### Alert Box
+- Allows the user to see relevant alerts.  
+- User stories covered: 26
+
+<details><summary>See feature image</summary>
+
+![Alert Box](docs/features/message_alert.PNG)
+</details>   
+
+
+### Sort
+- Allows the user to sort the listed products.  
+- User stories covered: 20, 21, 22, 23   
+
+<details><summary>See feature images</summary>
+
+![Sort](docs/features/list_sort.PNG)
+![Sort1](docs/features/list_sort1.PNG)
+![Sort2](docs/features/list_sort2.PNG)
+</details>  
+
+
+### Search
+- Allows the user to search for products.  
+- User stories covered: 21
+
+<details><summary>See feature image</summary>
+
+![Search](docs/features/search.PNG)
+</details>  
+
+
+### Stripe
+- Allows the user to use stripe for card payments.  
+- User stories covered: 24
+
+<details><summary>See feature image</summary>
+
+![Stripe](docs/features/stripe.PNG)
+</details> 
+
+### Confirmation Details
+- Allows the user to receive confirmation of purchase
+- Full details are shown along with a message  
+- User stories covered: 28
+
+<details><summary>See feature image</summary>
+
+![Email Confirmation](docs/features/confirmation.PNG)
+</details>  
+
+
+### Email Confirmation
+- Allows the user to receive an email confirmation for their order.  
+- User stories covered: 29
+
+<details><summary>See feature image</summary>
+
+![Email Confirmation](docs/features/email_conf.PNG)
+</details>  
+
+
+### Profile
+- Allows the user to update their information and see their order history.  
+- User stories covered: 5
+
+<details><summary>See feature image</summary>
+
+![Profile](docs/features/profile.PNG)
+</details>  
+
+
+### Add Product
+- Allows the Admin to add new products.  
+- User stories covered: 30
+
+<details><summary>See feature image</summary>
+
+![Add Product](docs/features/admin_add.PNG)
+</details>  
+
+
+### Edit Product
+- Allows the user to edit the products.  
+- User stories covered: 31
+
+<details><summary>See feature image</summary>
+
+![Edit Product](docs/features/admin_edit.png)
+</details>  
+
+
+### Delete Product
+- Allows the user to delete products, includes confirmation prompt before deletion.  
+- User stories covered: 32
+
+<details><summary>See feature image</summary>
+
+![Delete Product](docs/features/admin_delete.png)
+</details>  
+
+### Contact message
+- Users can send a message via the message form 
+- User stories covered: 33 
+  
+<details><summary>See feature images</summary>
+
+
+![Contact](docs/features/contact.PNG)
+</details>
+
+### Pagination
+- Pagination is used on the products page
+- Pagination is included in filtered and query search's 
+- User stories covered: 6
+  
+<details><summary>See feature images</summary>
+
+![Pagination](docs/features/pagination.PNG)
+</details>
+
+
+##### Back to [top](#table-of-contents)<hr>
 
 
