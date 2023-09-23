@@ -167,6 +167,9 @@ a.category-badge > span.badge:hover {
     text-decoration-line: underline;
 }
 
+.navbar-mobile {
+    padding-left: 0px;
+}
 /* ------------------------------- bootstrap toasts */
 
 .message-container {
