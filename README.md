@@ -794,8 +794,12 @@ The W3C Markup Validation Service was used to validate the HTML of the website.
 
 ### Home  
 
-index.html [results](docs/vaidation/.png) 
 - No Errors Found
+
+<details><summary>index.html</summary>
+
+![index.html](docs/validation/home_html.PNG)
+</details>
 
 
 | **Level** | **Feature** | **Issue Description** | **Comment** |

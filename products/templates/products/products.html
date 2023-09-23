@@ -135,7 +135,7 @@
                     {% if products.has_next %}
         
                     <a href="{% relative_url products.next_page_number 'page' request.GET.urlencode %}" class="pagination-underline">Next</a>
-                    <a href="{% relative_url products.paginator.num_pages 'page' request.GET.urlencode %}" class="pagination-underline">Last &raquo</a>
+                    <a href="{% relative_url products.paginator.num_pages 'page' request.GET.urlencode %}" class="pagination-underline">Last &raquo;</a>
         
                     {% endif %}
                 </div>
