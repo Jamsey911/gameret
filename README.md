@@ -934,7 +934,7 @@ The W3C Markup Validation Service was used to validate the HTML of the website.
 
 - No Errors Found
 
-<details><summary>About.html</summary>
+<details><summary>about.html</summary>
 
 ![About](docs/validation/about_html.PNG)
 </details>
@@ -948,8 +948,12 @@ The W3C Markup Validation Service was used to validate the HTML of the website.
 
 ### Sign In 
 
-login.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/accounts/login/) 
 - No Errors Found
+
+<details><summary>login.html</summary>
+
+![Login](docs/validation/login_html.PNG)
+</details>
 
 
 | **Level** | **Feature** | **Issue Description** | **Comment** |
@@ -960,8 +964,12 @@ login.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teeti
 
 ### Sign Out  
 
-logout.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/accounts/logout/) 
-- No Errors Found  
+- No Errors Found
+
+<details><summary>logout.html</summary>
+
+![Logoyut](docs/validation/logout_html.PNG)
+</details> 
 
 
 | **Level** | **Feature** | **Issue Description** | **Comment** |
@@ -972,8 +980,12 @@ logout.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teet
 
 ### Register  
 
-signup.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/accounts/signup/) 
 - No Errors Found
+
+<details><summary>signup.html</summary>
+
+![Signup](docs/validation/signup_html.PNG)
+</details> 
 
 
 | **Level** | **Feature** | **Issue Description** | **Comment** |
@@ -984,8 +996,12 @@ signup.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teet
 
 ### 404  
 
-404.html [results](https://validator.w3.org/nu/?checkerrorpages=yes&useragent=Validator.nu%2FLV+http%3A%2F%2Fvalidator.w3.org%2Fservices&acceptlanguage=&doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com%2Faccounts%2F404%2F) 
 - No Errors Found
+
+<details><summary>404.html</summary>
+
+![404](docs/validation/404_html.PNG)
+</details> 
 
 
 | **Level** | **Feature** | **Issue Description** | **Comment** |
