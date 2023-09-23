@@ -798,90 +798,23 @@ The W3C Markup Validation Service was used to validate the HTML of the website.
 
 <details><summary>index.html</summary>
 
-![index.html](docs/validation/home_html.PNG)
-</details>
-
-
-| **Level** | **Feature** | **Issue Description** | **Comment** |
-|-------------|-------------|----------------------|-------------|
-| Error | N/A | N/A | N/A |
-| Warning | N/A | N/A | N/A |  
-
-
-### Golf Clubs  
-
-golf_clubs.html [results](docs/vaidation/.png) 
-- No Errors Found
-
+![Home](docs/validation/home_html.PNG)
+</details> 
 
 | **Level** | **Feature** | **Issue Description** | **Comment** |
 |-------------|-------------|----------------------|-------------|
 | Error | N/A | N/A | N/A |
-| Warning | N/A | N/A | N/A |  
+| Warning | N/A | N/A | N/A |
 
 
-### Golf Club Details  
-
-club_expanded.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/bookings/druids-vale/) 
-- No Errors Found
-
-
-| **Level** | **Feature** | **Issue Description** | **Comment** |
-|-------------|-------------|----------------------|-------------|
-| Error | N/A | N/A | N/A |
-| Warning | N/A | N/A | N/A |  
-
-
-### My Teetimes  
-
-<details><summary>Booking List</summary>
-
-![booking list](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/html/validation-html-booking-list.PNG)
-</details>
+### Products  
 
 - No Errors Found
 
-| **Level** | **Feature** | **Issue Description** | **Comment** |
-|-------------|-------------|----------------------|-------------|
-| Error | N/A | N/A | N/A |
-| Warning | N/A | N/A | N/A |  
+<details><summary>products.html</summary>
 
-
-### Edit Booking
-
-<details><summary>edit_booking.html</summary>
-
-![booking list](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/html/validation-html-edit-booking.PNG)
-</details>
-
-- No Errors Found
-
-| **Level** | **Feature** | **Issue Description** | **Comment** |
-|-------------|-------------|----------------------|-------------|
-| Error | N/A | N/A | N/A |
-| Warning | N/A | N/A | N/A |  
-
-
-### Cancel Booking
-
-<details><summary>cancel_booking.html</summary>
-
-![booking list](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/html/validation-html-cancel-booking.PNG)
-</details>
-
-- No Errors Found
-
-| **Level** | **Feature** | **Issue Description** | **Comment** |
-|-------------|-------------|----------------------|-------------|
-| Error | N/A | N/A | N/A |
-| Warning | N/A | N/A | N/A |  
-
-
-### Shop  
-
-product_list.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/products/) 
-- No Errors Found
-
+![Products](docs/validation/products_html.PNG)
+</details> 
 
 | **Level** | **Feature** | **Issue Description** | **Comment** |
 |-------------|-------------|----------------------|-------------|
@@ -891,9 +824,12 @@ product_list.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp
 
 ### Product Detail  
 
-product_detail.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/products/15/) 
 - No Errors Found
 
+<details><summary>product_detail.html</summary>
+
+![Product details](docs/validation/product_detail_html.PNG)
+</details> 
 
 | **Level** | **Feature** | **Issue Description** | **Comment** |
 |-------------|-------------|----------------------|-------------|
@@ -903,28 +839,29 @@ product_detail.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-
 
 ### Add Product
 
+- No Errors Found
+
 <details><summary>add_product.html</summary>
 
-![add product](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/html/validation-html-add-product.PNG)
-</details>
-
-- No Errors Found
+![Add Product](docs/validation/add_product_html.PNG)
+</details> 
 
 | **Level** | **Feature** | **Issue Description** | **Comment** |
 |-------------|-------------|----------------------|-------------|
 | Error | N/A | N/A | N/A |
 | Warning | N/A | N/A | N/A | 
+| Info | Edit Product | Trailing slash on void elements has no effect and interacts badly with unquoted attribute values. | Noted| 
 
 
 ### Edit Product
 
-<details><summary>edit_product.html</summary>
-
-![edit product](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/html/validation-html-edit-product.PNG)
-</details>
-
 - No Errors Found
 1 Info detected
+
+<details><summary>edit_product.html</summary>
+
+![Edit Product](docs/validation/edit_product_html.PNG)
+</details> 
 
 | **Level** | **Feature** | **Issue Description** | **Comment** |
 |-------------|-------------|----------------------|-------------|
@@ -935,9 +872,12 @@ product_detail.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-
 
 ### Basket  
 
-basket.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/basket/) 
 - No Errors Found
 
+<details><summary>bag.html</summary>
+
+![Bag](docs/validation/bag_html.PNG)
+</details>
 
 | **Level** | **Feature** | **Issue Description** | **Comment** |
 |-------------|-------------|----------------------|-------------|
@@ -947,9 +887,12 @@ basket.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teet
 
 ### Checkout  
 
-checkout.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/checkout/) 
 - No Errors Found
 
+<details><summary>checkout.html</summary>
+
+![checkout](docs/validation/checkout_html.PNG)
+</details>
 
 | **Level** | **Feature** | **Issue Description** | **Comment** |
 |-------------|-------------|----------------------|-------------|
@@ -959,12 +902,12 @@ checkout.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-te
 
 ### Checkout Success  
 
+- No Errors Found
+
 <details><summary>checkout_success.html</summary>
 
-![checkout success](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/html/validation-html-checkout-success.PNG)
+![checkout](docs/validation/checkout_success_html.PNG)
 </details>
-
-- No Errors Found
 
 | **Level** | **Feature** | **Issue Description** | **Comment** |
 |-------------|-------------|----------------------|-------------|
@@ -974,12 +917,12 @@ checkout.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-te
 
 ### Profile  
 
+- No Errors Found
+
 <details><summary>profile.html</summary>
 
-![profile](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/html/validation-html-profile.PNG)
+![Profile](docs/validation/profile_html.PNG)
 </details>
-
-- No Errors Found
 
 | **Level** | **Feature** | **Issue Description** | **Comment** |
 |-------------|-------------|----------------------|-------------|
@@ -987,33 +930,14 @@ checkout.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-te
 | Warning | N/A | N/A | N/A | 
 
 
-### Blog  
+### About 
 
-blog.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/blog/) 
 - No Errors Found
 
+<details><summary>About.html</summary>
 
-| **Level** | **Feature** | **Issue Description** | **Comment** |
-|-------------|-------------|----------------------|-------------|
-| Error | N/A | N/A | N/A |
-| Warning | N/A | N/A | N/A |  
-
-
-### Blog Expand 
-
-blog_expand.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/golf-etiquette/) - 405 Errors Found (Summernote Editor)
-
-
-| **Level** | **Feature** | **Issue Description** | **Comment** |
-|-------------|-------------|----------------------|-------------|
-| Error | Blog Expand | CSS / Parse Error | These errors are caused by the Summernote editor and not by code written by the developer of this project. Time constraints did not allow me to resolve these issues at the present time |
-| Warning | N/A | N/A | N/A |  
-
-
-### Contact 
-
-contact.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/contact/) 
-- No Errors Found
+![About](docs/validation/about_html.PNG)
+</details>
 
 
 | **Level** | **Feature** | **Issue Description** | **Comment** |
