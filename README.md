@@ -784,10 +784,326 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
   
 <details><summary>See feature images</summary>
 
-![Pagination](docs/features/pagination.PNG)
+![Pagination](docs/features/pagination.png)
 </details>
 
 
 ##### Back to [top](#table-of-contents)<hr>
+
+The W3C Markup Validation Service was used to validate the HTML of the website.  
+
+### Home  
+
+index.html [results](docs/features/pagination.png) 
+- No Errors Found
+
+
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Error | N/A | N/A | N/A |
+| Warning | N/A | N/A | N/A |  
+
+
+### Golf Clubs  
+
+golf_clubs.html [results](docs/vaidation/pagination.png) 
+- No Errors Found
+
+
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Error | N/A | N/A | N/A |
+| Warning | N/A | N/A | N/A |  
+
+
+### Golf Club Details  
+
+club_expanded.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/bookings/druids-vale/) 
+- No Errors Found
+
+
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Error | N/A | N/A | N/A |
+| Warning | N/A | N/A | N/A |  
+
+
+### My Teetimes  
+
+<details><summary>Booking List</summary>
+
+![booking list](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/html/validation-html-booking-list.PNG)
+</details>
+
+- No Errors Found
+
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Error | N/A | N/A | N/A |
+| Warning | N/A | N/A | N/A |  
+
+
+### Edit Booking
+
+<details><summary>edit_booking.html</summary>
+
+![booking list](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/html/validation-html-edit-booking.PNG)
+</details>
+
+- No Errors Found
+
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Error | N/A | N/A | N/A |
+| Warning | N/A | N/A | N/A |  
+
+
+### Cancel Booking
+
+<details><summary>cancel_booking.html</summary>
+
+![booking list](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/html/validation-html-cancel-booking.PNG)
+</details>
+
+- No Errors Found
+
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Error | N/A | N/A | N/A |
+| Warning | N/A | N/A | N/A |  
+
+
+### Shop  
+
+product_list.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/products/) 
+- No Errors Found
+
+
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Error | N/A | N/A | N/A |
+| Warning | N/A | N/A | N/A |  
+
+
+### Product Detail  
+
+product_detail.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/products/15/) 
+- No Errors Found
+
+
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Error | N/A | N/A | N/A |
+| Warning | N/A | N/A | N/A |  
+
+
+### Add Product
+
+<details><summary>add_product.html</summary>
+
+![add product](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/html/validation-html-add-product.PNG)
+</details>
+
+- No Errors Found
+
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Error | N/A | N/A | N/A |
+| Warning | N/A | N/A | N/A | 
+
+
+### Edit Product
+
+<details><summary>edit_product.html</summary>
+
+![edit product](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/html/validation-html-edit-product.PNG)
+</details>
+
+- No Errors Found
+1 Info detected
+
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Error | N/A | N/A | N/A |
+| Warning | N/A | N/A | N/A | 
+| Info | Edit Product | Trailing slash on void elements has no effect and interacts badly with unquoted attribute values. | Noted| 
+
+
+### Basket  
+
+basket.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/basket/) 
+- No Errors Found
+
+
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Error | N/A | N/A | N/A |
+| Warning | N/A | N/A | N/A |  
+
+
+### Checkout  
+
+checkout.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/checkout/) 
+- No Errors Found
+
+
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Error | N/A | N/A | N/A |
+| Warning | N/A | N/A | N/A |  
+
+
+### Checkout Success  
+
+<details><summary>checkout_success.html</summary>
+
+![checkout success](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/html/validation-html-checkout-success.PNG)
+</details>
+
+- No Errors Found
+
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Error | N/A | N/A | N/A |
+| Warning | N/A | N/A | N/A | 
+
+
+### Profile  
+
+<details><summary>profile.html</summary>
+
+![profile](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/html/validation-html-profile.PNG)
+</details>
+
+- No Errors Found
+
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Error | N/A | N/A | N/A |
+| Warning | N/A | N/A | N/A | 
+
+
+### Blog  
+
+blog.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/blog/) 
+- No Errors Found
+
+
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Error | N/A | N/A | N/A |
+| Warning | N/A | N/A | N/A |  
+
+
+### Blog Expand 
+
+blog_expand.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/golf-etiquette/) - 405 Errors Found (Summernote Editor)
+
+
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Error | Blog Expand | CSS / Parse Error | These errors are caused by the Summernote editor and not by code written by the developer of this project. Time constraints did not allow me to resolve these issues at the present time |
+| Warning | N/A | N/A | N/A |  
+
+
+### Contact 
+
+contact.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/contact/) 
+- No Errors Found
+
+
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Error | N/A | N/A | N/A |
+| Warning | N/A | N/A | N/A |  
+
+
+### Sign In 
+
+login.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/accounts/login/) 
+- No Errors Found
+
+
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Error | N/A | N/A | N/A |
+| Warning | N/A | N/A | N/A |  
+
+
+### Sign Out  
+
+logout.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/accounts/logout/) 
+- No Errors Found  
+
+
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Error | N/A | N/A | N/A |
+| Warning | N/A | N/A | N/A | 
+
+
+### Register  
+
+signup.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/accounts/signup/) 
+- No Errors Found
+
+
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Error | N/A | N/A | N/A |
+| Warning | N/A | N/A | N/A |  
+
+
+### 404  
+
+404.html [results](https://validator.w3.org/nu/?checkerrorpages=yes&useragent=Validator.nu%2FLV+http%3A%2F%2Fvalidator.w3.org%2Fservices&acceptlanguage=&doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com%2Faccounts%2F404%2F) 
+- No Errors Found
+
+
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Error | N/A | N/A | N/A |
+| Warning | N/A | N/A | N/A |  
+
+##### Back to [top](#table-of-contents)<hr>  
+
+
+### CSS Validation
+The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website.
+
+<details><summary>base.css</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/css/validation-base-css.PNG">
+</details> 
+
+<details><summary>profile.css</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/css/validation-base-css.PNG">
+</details>  
+
+<details><summary>checkout.css</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/css/validation-checkout-css.PNG">
+</details><hr>
+
+### JavaScript Validation
+JSHint javaScript Validation Service was used to validate all javaScript files.
+
+<details><summary>stripe_elements.js</summary>  
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/js/validation-js-stripe-elements.PNG">
+</details>  
+
+- one undefined variable Stripe which originates from a external script
+
+<details><summary>checkout.js</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/js/validation-js-checkout.PNG">
+</details>  
+
+- one undefined variable Stripe which originates from a external script
+
+<details><summary>country_field.js</summary>
+<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/js/validation-js-country-field.PNG">
+</details>
+
+- No issues raised  
+
+
 
 
