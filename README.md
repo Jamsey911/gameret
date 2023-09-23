@@ -794,7 +794,7 @@ The W3C Markup Validation Service was used to validate the HTML of the website.
 
 ### Home  
 
-index.html [results](docs/features/pagination.png) 
+index.html [results](docs/vaidation/.png) 
 - No Errors Found
 
 
@@ -806,7 +806,7 @@ index.html [results](docs/features/pagination.png)
 
 ### Golf Clubs  
 
-golf_clubs.html [results](docs/vaidation/pagination.png) 
+golf_clubs.html [results](docs/vaidation/.png) 
 - No Errors Found
 
 
