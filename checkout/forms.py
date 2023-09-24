@@ -1,4 +1,6 @@
-"""Imports for forms in checkout app"""
+"""
+Imports for forms in checkout app
+"""
 from django import forms
 from .models import Order
 

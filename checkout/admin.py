@@ -1,4 +1,6 @@
-"""Imports for checkout admin page"""
+"""
+Imports for checkout admin page
+"""
 from django.contrib import admin
 from .models import Order, OrderLineItem
 
@@ -15,7 +17,7 @@ class OrderAdmin(admin.ModelAdmin):
 
     readonly_fields = ('order_number', 'date',
                        'delivery_cost', 'order_total',
-                       'grand_total', 'original_bag', 
+                       'grand_total', 'original_bag',
                        'stripe_pid')
 
     fields = ('order_number', 'date', 'full_name',

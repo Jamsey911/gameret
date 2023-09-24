@@ -1,3 +1,6 @@
+"""
+Imports for bag urls
+"""
 from django.urls import path
 from . import views
 

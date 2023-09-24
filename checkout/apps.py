@@ -1,3 +1,6 @@
+"""
+Import for checkout signals
+"""
 from django.apps import AppConfig
 
 

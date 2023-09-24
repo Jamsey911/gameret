@@ -1,4 +1,6 @@
-"""Imports for 404 page"""
+"""
+Imports for gameret urls
+"""
 from django.shortcuts import render
 from django.core.exceptions import PermissionDenied
 

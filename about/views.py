@@ -1,6 +1,6 @@
-# Imports
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# 3rd party:
+"""
+Imports for about views
+"""
 from django.shortcuts import render, redirect, reverse
 from django.contrib import messages
 from django.conf import settings
