@@ -1016,35 +1016,38 @@ The W3C Markup Validation Service was used to validate the HTML of the website.
 The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website.
 
 <details><summary>base.css</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/css/validation-base-css.PNG">
+
+![base CSS](docs/validation/base_css.PNG)
 </details> 
 
+<details><summary>about.css</summary>
+
+![About CSS](docs/validation/about_css.PNG)
+</details>
+
 <details><summary>profile.css</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/css/validation-base-css.PNG">
-</details>  
+
+![Profile CSS](docs/validation/profile_css.PNG)
+</details> 
 
 <details><summary>checkout.css</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/css/validation-checkout-css.PNG">
-</details><hr>
+
+![Checkout CSS](docs/validation/checkout_css.PNG)
+</details> 
 
 ### JavaScript Validation
 JSHint javaScript Validation Service was used to validate all javaScript files.
 
-<details><summary>stripe_elements.js</summary>  
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/js/validation-js-stripe-elements.PNG">
-</details>  
+<details><summary>stripe_elements.js</summary>
 
-- one undefined variable Stripe which originates from a external script
+![Stripe Elements JS](docs/validation/stripe_elements_js.PNG)
+</details> 
+- No issues raised 
 
-<details><summary>checkout.js</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/js/validation-js-checkout.PNG">
-</details>  
+<details><summary>countryfield.js</summary>
 
-- one undefined variable Stripe which originates from a external script
-
-<details><summary>country_field.js</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/js/validation-js-country-field.PNG">
-</details>
+![Countryfield JS](docs/validation/countryfield_js.PNG)
+</details> 
 
 - No issues raised  
 
