@@ -1112,7 +1112,7 @@ JSHint javaScript Validation Service was used to validate all javaScript files.
 
 <details><summary>admin.py</summary>
 
-![Admin](docs/validation/checkout_py.PNG)
+![Admin](docs/validation/checkout_admin_py.PNG)
 </details>
 
 <details><summary>apps.py</summary>
@@ -1135,6 +1135,16 @@ JSHint javaScript Validation Service was used to validate all javaScript files.
 ![Signals](docs/validation/checkout_signals_py.PNG)
 </details>
 
+<!-- <details><summary>tests.py</summary>
+
+![Webhook handler](docs/validation/checkout_webhook_handler_py.PNG)
+</details>
+
+<details><summary>tests.py</summary>
+
+![webhook](docs/validation/checkout_webhook_py.PNG)
+</details> -->
+
 <details><summary>urls.py</summary>
 
 ![Urls](docs/validation/checkout_urls_py.PNG)
@@ -1145,9 +1155,9 @@ JSHint javaScript Validation Service was used to validate all javaScript files.
 ![Views](docs/validation/checkout_views_py.PNG)
 </details>
 
-<details><summary>webhook_handeler.py</summary>
+<details><summary>webhook_handler.py</summary>
 
-![Webhook handeler](docs/validation/checkout_webhook_handeler_py.PNG)
+![Webhook handler](docs/validation/checkout_webhook_handler_py.PNG)
 </details>
 
 <details><summary>webhook.py</summary>
@@ -1155,91 +1165,21 @@ JSHint javaScript Validation Service was used to validate all javaScript files.
 ![webhook](docs/validation/checkout_webhook_py.PNG)
 </details>
 
-<hr><summary>checkout</summary>
-
-<details><summary>Admin.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-checkout-admin.PNG">
-</details>
-
-<details><summary>forms.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-checkout-forms.PNG">
-</details>  
-
-<details><summary>test-forms.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-checkout-test-forms.PNG">
-</details>
-
-<details><summary>models.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-checkout-models.PNG">
-</details>
-
-<details><summary>test-models.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-checkout-test-models.PNG">
-</details>
-
-<details><summary>signals.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-checkout-signals.PNG">
-</details>
-
-<details><summary>urls.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-checkout-urls.PNG">
-</details>
-
-<details><summary>views.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-checkout-views.PNG">
-</details>  
-
-<details><summary>test_views.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-checkout-test-views.PNG">
-</details>  
-
-<details><summary>webhook_handler.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-checkout-webhook-handler.PNG">
-</details>  
-
-<details><summary>webhook.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-checkout-webhooks.PNG">
-</details>  
-
-<hr><summary>contact</summary>
-
-<details><summary>Admin.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-contact-admin.PNG">
-</details>
-
-<details><summary>forms.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-contact-forms.PNG">
-</details>
-
-<details><summary>test-forms.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-contact-test-forms.PNG">
-</details>
-
-<details><summary>models.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-contact-models.PNG">
-</details>
-
-<details><summary>test_models.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-contact-test-models.PNG">
-</details>
-
-<details><summary>urls.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-contact-urls.PNG">
-</details>
-
-<details><summary>views.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-contact-views.PNG">
-</details>
 
 <hr><summary>home</summary>
 
 <details><summary>urls.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-home-urls.PNG">
+
+![Home urls](docs/validation/home_urls_py.PNG)
 </details>
 
 <details><summary>views.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-home-views.PNG">
+
+![Home views](docs/validation/home_views_py.PNG)
 </details>
+
+
+<!-- Stopped here -->
 
 <hr><summary>products</summary>
 
