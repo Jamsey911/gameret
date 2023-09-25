@@ -16,6 +16,7 @@ body {
     height: calc(100vh - 164px);
     color: #fdfdf6;
     font-family: 'Rubik', sans-serif;
+    background-color: black;
 }
 
 /* from Bulma */
