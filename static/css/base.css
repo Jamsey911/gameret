@@ -27,6 +27,10 @@ body {
     width: 1.5rem;
 }
 
+.main-logo-text {
+    background-color: #000;
+}
+
 .logo-font {
     text-transform: uppercase;
 }
