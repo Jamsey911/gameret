@@ -1,5 +1,5 @@
 """
-Imports for gameret urls
+Imports for gameret views
 """
 from django.shortcuts import render
 from django.core.exceptions import PermissionDenied

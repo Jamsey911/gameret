@@ -1,5 +1,5 @@
 """
-Imports for the porducts admin
+Imports for the porducts forms
 """
 from django import forms
 from .widgets import CustomClearableFileInput
