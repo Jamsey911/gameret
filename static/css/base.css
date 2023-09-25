@@ -14,9 +14,16 @@ body {
     background: url('/media/background_cropped.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
-    color: #fdfdf6;
+    color: #222;
     font-family: 'Rubik', sans-serif;
-    background-color: black;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #fdfdf6;
+    font-family: 'Kanit', sans-serif;
 }
 
 /* from Bulma */

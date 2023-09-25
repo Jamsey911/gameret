@@ -130,7 +130,7 @@
                     <a href="{% relative_url products.previous_page_number 'page' request.GET.urlencode %}" class="pagination-underline">Previous</a>
         
                     {% endif %}
-                    Page {{ products.number }} of {{ products.paginator.num_pages }}
+                    <p class="text-light mb-0">Page {{ products.number }} of {{ products.paginator.num_pages }}</p>
         
                     {% if products.has_next %}
         
