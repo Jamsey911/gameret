@@ -16,6 +16,7 @@ body {
     height: calc(100vh - 164px);
     color: #222;
     font-family: 'Rubik', sans-serif;
+    background-color: #c31312;
 }
 
 h1,
