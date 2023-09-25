@@ -16,7 +16,7 @@ body {
     height: calc(100vh - 164px);
     color: #222;
     font-family: 'Rubik', sans-serif;
-    background-color: #c31312;
+    background-color: #222;
 }
 
 h1,
@@ -24,7 +24,7 @@ h2,
 h3,
 h4 {
     color: #fdfdf6;
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 /* from Bulma */
