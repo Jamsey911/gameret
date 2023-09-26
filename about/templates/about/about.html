@@ -14,9 +14,9 @@
     </div>
     <!-- About Us Section -->
     <div class="row d-flex justify-content-center">
-        <div class=" col-xl-5 col-md-12 about-us-section">
-            <h2 class="p-3 w-50 mx-auto">About Us</h2>
-            <p class="p-3  mx-auto">Welcome to GAMERET, your premier destination for all your favouite games, consoles and 
+        <div class=" col-xl-5 pl-5 col-md-12 about-us-section">
+            <h2 class="pt-5 w-50 mx-auto text text-center">About Us</h2>
+            <p class="p-2  mx-auto text-light text-left">Welcome to GAMERET, your premier destination for all your favouite games, consoles and 
                 accessories . Founded by J. Lynch, a ex-professional Postman from Ireland and currently residing in the
                 picturesque north of Dublin. With a passion for gaming that spans a lifetime, J.Lynch has
                 established a reputation for delivering exceptional customer service and attention to detail in every transaction
@@ -31,9 +31,12 @@
     </div>
 
     <!-- Contact and Image Section -->
-    <h4 class="text-center fw-bold p-3">Contact Us</h4>
+    <div>
+        <h2 class="text-center fw-bold p-3" id="contact-link">Contact Us</h2>
+    </div>
+    
     <div class="row contact-row justify-content-between p-4" id="contact">
-        <div class="col-md-5 contact-column pb-4" >
+        <div class="col-md-5 contact-column pb-4 text-light" >
             <!-- Contact Form inserted here -->
             <form action="{% url 'about:about' %}" method="POST">
                 {% csrf_token %}
