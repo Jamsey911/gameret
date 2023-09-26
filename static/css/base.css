@@ -26,11 +26,6 @@ h4 {
     font-family: 'Rubik', sans-serif;
 }
 
-.main-logo-text,
-.product-number-display {
-  background: #222;
-}
-
 /* from Bulma */
 .icon {
     align-items: center;
