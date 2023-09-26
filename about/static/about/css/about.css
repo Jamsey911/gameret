@@ -11,8 +11,9 @@
       height: 60vh;
 
   }
-  
-  .about-us-section {
+ 
+  .about-us-section,
+  #contact-link {
     background: rgba(14, 3, 3, 0.6);
     padding: 20px;
   }
