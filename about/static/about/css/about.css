@@ -12,8 +12,7 @@
 
   }
  
-  .about-us-section,
-  #contact-link {
+  .about-us-section {
     background: rgba(14, 3, 3, 0.6);
     padding: 20px;
   }
