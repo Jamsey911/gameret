@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 DEBUG = 'DEVELOPMENT' in os.environ
 
 
-ALLOWED_HOSTS = ['8000-jamsey911-gameret-23njgahkd07.ws-eu104.gitpod.io',
+ALLOWED_HOSTS = ['8000-jamsey911-gameret-23njgahkd07.ws-eu105.gitpod.io',
                  'localhost', 'gameret-e526d0bda5ef.herokuapp.com']
 
 
