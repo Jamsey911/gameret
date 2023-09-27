@@ -135,7 +135,7 @@ h4 {
 	top: 0;
 	left: 0;
 	position: fixed;
-	background: #222;
+	background: #343A40;
 	z-index: -1;
 }
 
@@ -280,6 +280,11 @@ a.category-badge > span.badge:hover {
     display: none;
 }
 
+.form-check-label {
+    color: #f8f9fa;
+    text-decoration: underline;
+}
+
 .allauth-form-inner-content input::placeholder {
     color: #aab7c4;
 }
@@ -315,7 +320,7 @@ a.category-badge > span.badge:hover {
 }
 
 .allauth-form-inner-content a {
-	color: #17a2b8; /* text-info */
+	color: #6CDDEF; /* text-info */
 }
 
 /* Product Form */
