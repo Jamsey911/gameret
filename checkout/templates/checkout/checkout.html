@@ -41,14 +41,14 @@
                         <div class="col-2 mb-1">
                             <a href="{% url 'product_detail' item.product.id %}">
                                 {% if item.product.image %}
-                                    <img class="w-100" src="{{ item.product.image.url }}" alt="{{ product.name }}">
+                                    <img class="w-100" src="{{ item.product.image.url }}" alt="{{ item.product.name }}">
                                 {% else %}
-                                    <img class="w-100" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
+                                    <img class="w-100" src="{{ MEDIA_URL }}noimage.png" alt="{{ item.product.name }}">
                                 {% endif %}
                             </a>
                         </div>
                         <div class="col-7">
-                            <p class="my-0"><strong>{{ item.product.name }}</strong></p>
+                            <p class="my-0 text-light"><strong>{{ item.product.name }}</strong></p>
                             <p class="my-0 small text-light"><u>Qty: {{ item.quantity }}</u></p>
                         </div>
                         <div class="col-3 text-right">
@@ -123,7 +123,7 @@
 								<i class="fas fa-lock"></i>
 							</span>
 						</button>
-						<p class="small text-danger my-0">
+						<p class="small custom-danger my-0">
 							<span class="icon">
 								<i class="fas fa-exclamation-circle"></i>
 							</span>
@@ -135,11 +135,11 @@
         </div>
     </div>
     <div id="loading-overlay">
-        <h1 class="text-light logo-font loading-spinner">
+        <div class="logo-font loading-spinner">
             <span class="icon">
                 <i class="fas fa-3x fa-sync-alt fa-spin"></i>
             </span>
-        </h1>
+        </div>
     </div>
 {% endblock %}
 

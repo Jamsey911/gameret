@@ -28,6 +28,7 @@
 .fieldset-label {
     position: relative;
     right: .5rem;
+    color: #fefde5;
 }
 
 #payment-form .form-control,

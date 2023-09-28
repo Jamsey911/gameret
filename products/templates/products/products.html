@@ -89,9 +89,10 @@
                                                 <small class="text-muted">No Rating</small>
                                             {% endif %}
                                             {% if request.user.is_superuser %}
-                                                <small class="ml-3">
-                                                    <a href="{% url 'edit_product' product.id %}">Edit</a> | 
-                                                    <a class="text-danger" href="{% url 'delete_product' product.id %}">Delete</a>
+                                                <hr style="background-color: black;">
+                                                <small class="text-black rounded px-2 row d-flex m-3 justify-content-center text-center">
+                                                    <a href="{% url 'edit_product' product.id %}" class="edit-btn mr-1">Edit</a> | 
+                                                    <a class="text-danger ml-1" href="{% url 'delete_product' product.id %}">Delete</a>
                                                 </small>
                                             {% endif %}
                                         </div>

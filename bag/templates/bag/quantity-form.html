@@ -4,7 +4,8 @@
         <div class="input-group">
             <div class="input-group-prepend">
                 <button class="decrement-qty btn btn-sm btn-black rounded-0" 
-                    data-item_id="{{ item.item_id }}" id="decrement-qty_{{ item.item_id }}">
+                    data-item_id="{{ item.item_id }}" id="decrement-qty_{{ item.item_id }}"
+                    aria-label="decrement quantity button">
                     <span>
                         <i class="fas fa-minus fa-sm"></i>
                     </span>
@@ -13,10 +14,12 @@
             <input class="form-control form-control-sm qty_input" type="number"
                 name="quantity" value="{{ item.quantity }}" min="1" max="99"
                 data-item_id="{{ item.item_id }}"
-                id="id_qty_{{ item.item_id }}">
+                id="id_qty_{{ item.item_id }}"
+                aria-label="quantity number display">
             <div class="input-group-append">
                 <button class="increment-qty btn btn-sm btn-black rounded-0"
-                    data-item_id="{{ item.item_id }}" id="increment-qty_{{ item.item_id }}">
+                    data-item_id="{{ item.item_id }}" id="increment-qty_{{ item.item_id }}"
+                    aria-label="increment quantity button">
                     <span>
                         <i class="fas fa-plus fa-sm"></i>
                     </span>
@@ -28,5 +31,5 @@
         </div>
     </div>
 </form>
-<a class="update-link text-info"><small>Update</small></a>
-<a class="remove-item text-danger float-right" id="remove_{{ item.item_id }}" data-product_size="{{ item.size }}"><small>Remove</small></a>
+<a class="update-link text-info" aria-label="Update quantity button"><small>Update</small></a>
+<a class="remove-item custom-danger float-right" id="remove_{{ item.item_id }}" data-product_size="{{ item.size }}" aria-label="Remove product button"><small>Remove</small></a>
