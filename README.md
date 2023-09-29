@@ -1288,7 +1288,7 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/) wa
 
 <details><summary>Product details</summary>
 
-![Product details](docs/validation/wave_product_details.PNG)
+![Product details](docs/validation/wave_products_details.PNG)
 </details>
 
 <details><summary>Add Product</summary>
@@ -1345,6 +1345,80 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/) wa
 
 ![404](docs/validation/wave_404.PNG)
 </details>  
+
+
+## Lighthouse
+
+Performance, best practices and SEO was tested using Lighthouse.
+
+#### Desktop
+
+<details><summary>Home</summary>
+
+![Home](docs/validation/lh_home.PNG)
+</details>
+
+<details><summary>Product List</summary>
+
+![Product list](docs/validation/lh_products.PNG)
+</details>
+
+<details><summary>Product details</summary>
+
+![Product details](docs/validation/lh_product_details.PNG)
+</details>
+
+<details><summary>Add Product</summary>
+
+![Add Product](docs/validation/lh_add_product.PNG)
+</details>
+
+<details><summary>Edit Product</summary>
+
+![Edit Product](docs/validation/lh_edit_product.PNG)
+</details>
+
+<details><summary>Bag</summary>
+
+![Bag](docs/validation/lh_bag.PNG)
+</details>
+
+<details><summary>Checkout</summary>
+
+![Checkout](docs/validation/lh_checkout.PNG)
+</details>
+
+<details><summary>Checkout Success</summary>
+
+![Checkout Success ](docs/validation/lh_checkout_success.PNG)
+</details>
+
+<details><summary>About</summary>
+
+![About](docs/validation/lh_about.PNG)
+</details> 
+
+<details><summary>Profile</summary>
+
+![Profile](docs/validation/lh_profile.PNG)
+</details> 
+
+<details><summary>Sign Up</summary>
+
+![Sign Up](docs/validation/lh_signup.PNG)
+</details>
+
+<details><summary>Sign In</summary>
+
+![Sign In](docs/validation/lh_signin.PNG)
+</details>
+
+<details><summary>Sign Out</summary>
+
+![Sign Out](docs/validation/lh_signout.PNG)
+</details> 
+ 
+
 
 
 

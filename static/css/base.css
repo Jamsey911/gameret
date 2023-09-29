@@ -83,6 +83,12 @@ h5 {
     border: 1px solid #fdfdf6;
 }
 
+.dropdown-item:hover {
+    text-decoration: underline 1px;
+    background: #454A4F;
+    color: #fdfdf6;
+}
+
 .add-to-bag-button:hover,
 .btn-secondary:hover {
     background: #222;
