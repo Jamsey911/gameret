@@ -1274,7 +1274,7 @@ JSHint javaScript Validation Service was used to validate all javaScript files.
 ## Accessibility  
 The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/) was used to ensure the website met high accessibility standards.  
 - All pages returned 0 errors.  
-- All alerts presented were for redundant links whichweres taken into account duringdevelopmentt.
+- All alerts presented were for redundant links which were taken into account during developmentt.
 
 <details><summary>Home</summary>
 
