@@ -54,8 +54,13 @@
                     <li class="list-inline-item dropdown">
                         <a class="text-light nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <div class="text-center">
-                                <div><i class="fas fa-user fa-lg"></i></div>
+                            {% if request.user.is_authenticated %}
+                                <i class="custom-highlight fas fa-user fa-lg"></i>
+                                <p class="custom-highlight my-0">My Account</p>
+                                {% else %}
+                                <i class="fas fa-user fa-lg"></i>
                                 <p class="my-0">My Account</p>
+                                {% endif %}
                             </div>
                         </a>
                         <div class="dropdown-menu border-0" aria-labelledby="user-options">
