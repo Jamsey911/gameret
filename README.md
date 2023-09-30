@@ -1527,6 +1527,7 @@ Performance, best practices and SEO was tested using Lighthouse.
 <details><summary>See Images</summary>
 
 ![Login Status](docs/user_stories/test_us9.png)
+![Login Status](docs/user_stories/test_us9_1.png)
 </details>  
 
 10.	As a Shopper / Site User I can visit the shop so that I can view all products available  
@@ -1549,6 +1550,7 @@ Performance, best practices and SEO was tested using Lighthouse.
 <details><summary>See Images</summary>
 
 ![Bag](docs/user_stories/test_us11.png)
+![Bag](docs/user_stories/test_us11_1.png)
 </details>  
 
 12.	As a Shopper / Site User I can view a list of products so that I can select a product to purchase  
@@ -1571,6 +1573,7 @@ Performance, best practices and SEO was tested using Lighthouse.
 <details><summary>See Images</summary>
 
 ![Product Detail](docs/user_stories/test_us13.png)
+![Product Detail](docs/user_stories/test_us13_1.png)
 </details>  
 
 14.	As a Shopper / Site User I can view a list of consoles so that I can select a console I want to purchase  
@@ -1683,6 +1686,7 @@ Performance, best practices and SEO was tested using Lighthouse.
 <details><summary>See Images</summary>
 
 ![Payment Method](docs/user_stories/test_us23.png)
+![Payment Method](docs/user_stories/test_us23_1.png)
 </details>  
 
 24.	As a Shopper / Site User I can select the quantity of a product so that I can select a quantity that suites my needs 
@@ -1737,7 +1741,7 @@ Performance, best practices and SEO was tested using Lighthouse.
 
 <details><summary>See Images</summary>
 
-![Email Order Confirmation](docs/user_stories/test_us28.png)
+![Email Order Confirmation](docs/user_stories/test_us28.PNG)
 </details> 
 
 29.	As a Store Owner / Admin I can add a product so that I can add new products to the shop  
@@ -1749,6 +1753,7 @@ Performance, best practices and SEO was tested using Lighthouse.
 <details><summary>See Images</summary>
 
 ![Add Product](docs/user_stories/test_us29.png)
+![Add Product](docs/user_stories/test_us29_1.png)
 </details>  
 
 30.	As a Store Owner / Admin I can edit a product so that I can edit existing products in the shop  
@@ -1760,6 +1765,7 @@ Performance, best practices and SEO was tested using Lighthouse.
 <details><summary>See Images</summary>
 
 ![Add Product](docs/user_stories/test_us30.png)
+![Add Product](docs/user_stories/test_us30_1.png)
 </details>   
 
 31.	As a Store Owner / Admin I can delete a product so that I can delete existing products from the shop 
@@ -1770,7 +1776,8 @@ Performance, best practices and SEO was tested using Lighthouse.
 
 <details><summary>See Images</summary>
 
-![Delete Product ](docs/user_stories/test_us31.png)
+![Delete Product](docs/user_stories/test_us31.png)
+![Delete Product](docs/user_stories/test_us31_1.PNG)
 </details>  
 
 32.	As a Shopper / Site User I can Sort products in alphabetical order so that I can search products by letter  
@@ -1781,7 +1788,7 @@ Performance, best practices and SEO was tested using Lighthouse.
 
 <details><summary>See Images</summary>
 
-![Search Alphabetical](docs/user_stories/test_us32.png)
+![Search Alphabetical](docs/user_stories/test_us32.PNG)
 </details>   
 
 33.	As a Store Owner / Admin I can view messages sent in by public so that I can gather feedback and converse its with its community  
@@ -1792,7 +1799,9 @@ Performance, best practices and SEO was tested using Lighthouse.
 
 <details><summary>See Images</summary>
 
-![Message View](docs/user_stories/test_us33.png)
+![Message View](docs/user_stories/test_us33.PNG)
+![Message View](docs/user_stories/test_us33_1.png)
+![Message View](docs/user_stories/test_us33_2.png)
 </details> 
 
 34.	As a Site User I can recover my password so that I can set a new password if I forgot it
@@ -1804,6 +1813,9 @@ Performance, best practices and SEO was tested using Lighthouse.
 <details><summary>See Images</summary>
 
 ![Password Recovery](docs/user_stories/test_us34.png)
+![Password Recovery](docs/user_stories/test_us34_1.png)
+![Password Recovery](docs/user_stories/test_us34_2.PNG)
+![Password Recovery](docs/user_stories/test_us34_3.png)
 </details> 
 
 35.	As a Shopper / Site User I can subscribe to a newsletter so that I can Keep updated with the latest new from the store 
@@ -1815,6 +1827,8 @@ Performance, best practices and SEO was tested using Lighthouse.
 <details><summary>See Images</summary>
 
 ![Email Subscription](docs/user_stories/test_us35.png)
+![Email Subscription](docs/user_stories/test_us35_1.png)
+![Email Subscription](docs/user_stories/test_us35_2.PNG)
 </details> 
 
  
