@@ -1476,7 +1476,7 @@ Performance, best practices and SEO was tested using Lighthouse.
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Profile | From the Nav click the profile icon, select profile from dropdown and be broought to the profile page where user information is stored | Be brought to profile page | Works as expected  
+| Profile | From the Nav click the profile icon, select My Profile from dropdown and be brought to the profile page where user information is stored | Be brought to profile page | Works as expected  
 
 <details><summary>See Images</summary>
 
@@ -1488,7 +1488,7 @@ Performance, best practices and SEO was tested using Lighthouse.
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Navbar | Click on any link in the navbar to be brought to a relevant page, shop for example | Be brought to shop to view all products after clicking all products in the navbar | Works as expected  
+| Navbar | Click on any link in the navbar to be brought to a relevant page, shop for example | Be brought to relevant page after clicking an icon in the navbar | Works as expected  
 
 <details><summary>See Images</summary>
 
@@ -1499,7 +1499,7 @@ Performance, best practices and SEO was tested using Lighthouse.
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Navbar/Footer | Scoll to footer, click on the Instagram logo | A new tab will open and bring user to the Teetime Instagram page | Works as expected  
+| Navbar/Footer | Scoll to footer, click on the Instagram logo | A new tab will open and bring user to the twitter home page | Works as expected  
 
 <details><summary>See Images</summary>
 
@@ -1510,7 +1510,7 @@ Performance, best practices and SEO was tested using Lighthouse.
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Message Alert | Add an item from the shop to the basket | A message will appear in the alert box on screen to notify the user of this action | Works as expected  
+| Message Alert | Add an item from the shop to the bag | A message will appear in the alert box on screen to notify the user of this action | Works as expected  
 
 <details><summary>See Images</summary>
 
@@ -1522,7 +1522,7 @@ Performance, best practices and SEO was tested using Lighthouse.
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Login Status | While logged out the profile icon in the navbar will be gray, log in it will change to a green color | Once logged in the profile icon will be green | Works as expected  
+| Login Status | While logged out the profile icon in the navbar will be gray, log in it will change to a light blue color | Once logged in the profile icon will be light blue | Works as expected  
 
 <details><summary>See Images</summary>
 
@@ -1541,11 +1541,11 @@ Performance, best practices and SEO was tested using Lighthouse.
 ![Shop](docs/user_stories/test_us10.png)
 </details>  
 
-11.	As a Shopper / Site User I can view my basket and total cost at any time so that I can so I am aware of what I am buying and it's cost 
+11.	As a Shopper / Site User I can view my basket and total cost at any time so that I can be aware of what I am buying and it's cost 
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Bag | Click the basket icon in the navbar | User is brought to the basket page where all products in basket are displayed along with their price and total cost | Works as expected  
+| Bag | Click the basket icon in the navbar | User is brought to the bag page where all products in basket are displayed along with their price and total cost | Works as expected  
 
 <details><summary>See Images</summary>
 
@@ -1557,7 +1557,7 @@ Performance, best practices and SEO was tested using Lighthouse.
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Categories List | Select a category on the side panel, select Gents Polos     |     User is brought to the selected category of product and all products are listed | Works as expected  
+| Categories List | Select a category on the side panel, select Playstaion from the dropdown |  User is brought to the selected category of product and all products are listed | Works as expected  
 
 <details><summary>See Images</summary>
 
@@ -1568,7 +1568,7 @@ Performance, best practices and SEO was tested using Lighthouse.
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Product Detail | Click on any item image in the shop, or the view button     |  User is borught to the product detail page where product details are displayed | Works as expected  
+| Product Detail | Click on any item image in the shop, or the view button |  User is borught to the product detail page where product details are displayed | Works as expected  
 
 <details><summary>See Images</summary>
 
@@ -1576,66 +1576,67 @@ Performance, best practices and SEO was tested using Lighthouse.
 ![Product Detail](docs/user_stories/test_us13_1.png)
 </details>  
 
-14.	As a Shopper / Site User I can view a list of consoles so that I can select a console I want to purchase  
+14.	As a Shopper / Site User I can view a list of Consoles so that I can select a console I want to purchase  
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Consoles List |  From the navbar click Clubs | User is brought to the Golf Clubs List page | Works as expected  
+| Consoles List |  From the navbar click the All Consoles selection | User is brought to the Consoles List page | Works as expected  
 
 <details><summary>See Images</summary>
 
 ![Consoles List](docs/user_stories/test_us14.png)
 </details>  
 
-15.	As a Shopper / Site User I can view a list of games so that I can select a game I want to purchase  
+15.	As a Shopper / Site User I can view a list of Games so that I can select a game I want to purchase  
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Games List | From the Golf Clubs List page select a club and click the view golf club button | User is brought to the details page for the selected golf club | Works as expected  
+| Games List |  From the navbar click the All Games selection | User is brought to the Games List page | Works as expected
 
 <details><summary>See Images</summary>
 
 ![Games List](docs/user_stories/test_us15.png)
 </details> 
 
-16.	As a Shopper / Site User I can view a list of accessories so that I can select an accessory I want to purchase  
+16.	As a Shopper / Site User I can view a list of Accessories so that I can select an accessory I want to purchase  
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Accessories List | From golf club details page find the book a teetime form on the page, select a club, date and time | User is then brought to a confirmation page | Works as expected  
+| Accessories List |  From the navbar click the All Accessories selection | User is brought to the Accessories List page | Works as expected
 
 <details><summary>See Images</summary>
 
 ![Accessories List](docs/user_stories/test_us16.png)
 </details>  
 
-17.	As a Shopper / Site User I can view individual consoles so that I can see more detailed information about it 
+17.	As a Shopper / Site User I can view a individual Consoles so that I can see more detailed information about it 
  
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Console View | Search box in the navigation bar, input keyword to search such as "blue", click search | All items with the relevant keyword will be displayed | Works as expected  
+| Console View | Select a Console from the Console products page | All items with the relevant details will be displayed | Works as expected  
 
 <details><summary>See Images</summary>
 
 ![Console View](docs/user_stories/test_us17.png)
 </details>  
 
-18.	As a Shopper / Site User I can view individual games so that I can see more detailed information about it  
+18.	As a Shopper / Site User I can view a individual Game so that I can see more detailed information about it  
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Game View | Input a keyword into the search box in the navbar and click search | All items matching the search critearia are only displayed | Works as expected  
+| Game View | Select a Game from the Games products page | All items with the relevant details will be displayed | Works as expected
 
 <details><summary>See Images</summary>
 
 ![Game View](docs/user_stories/test_us18.png)
 </details>  
 
-19.	As a Shopper / Site User I can view individual accessories so that I can see more detailed information about it  
+19.	As a Shopper / Site User I can view individual accessorie so that I can see more detailed information about it  
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Accessories View | From the shop page, click a category on the side panel such as headwear | User is brought to the headwear page where only products classed as headwear are displayed | Works as expected  
+| Accessories View | Select a Accessorie from the Accessorie products page | All items with the relevant details will be displayed | Works as expected
+  
 
 <details><summary>See Images</summary>
 
@@ -1646,7 +1647,7 @@ Performance, best practices and SEO was tested using Lighthouse.
  
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Search | From the shop page, click the sort box and select price from high to low | All items will be sorted from the highest price to the lowest price | Works as expected  
+| Search | Enter a Catagorie name into search bar and select search | All items matching your request will be displayed | Works as expected  
 
 <details><summary>See Images</summary>
 
@@ -1655,11 +1656,9 @@ Performance, best practices and SEO was tested using Lighthouse.
 
 21.	As a Shopper / Site User I can see my search results so that I can only see what I am searching for  
 
-- The format used was unique together which checks that the selected date, time and club booking is unique, if the user selects a date, time and club already booked they will get a message asking them to select another time/date. Ideally I plan to remove the unavailable times from the dropdown to avoid the user clicking and going through the process to be told to select another time/date. Time constraints was the main isssue.
-
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Search View | From golf club detail page, select a date and time for selected club | If time is available a confirmation page will appear, if the time is already booked an error message will appear asking the user to select another time. | Works as expected  
+| Search View | Enter any request into search bar and select search | All items matching your request will be displayed | Works as expected 
 
 <details><summary>See Images</summary>
 
@@ -1681,7 +1680,7 @@ Performance, best practices and SEO was tested using Lighthouse.
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Payment Method | From Product details page select a size for the product in the size box, increase or decrease quantity from the quantity box | Sizes will be selected and quantity adjusted | Works as expected  
+| Payment Method | From the basket select secure checkout | Input user information, input card number 4242 4242 4242 4242 04/24 424 24242, payment is successful | Works as expected  
 
 <details><summary>See Images</summary>
 
@@ -1828,7 +1827,10 @@ Performance, best practices and SEO was tested using Lighthouse.
 
 ![Email Subscription](docs/user_stories/test_us35.png)
 ![Email Subscription](docs/user_stories/test_us35_1.png)
-![Email Subscription](docs/user_stories/test_us35_2.PNG)
+![Email Subscription](docs/user_stories/test_us35_2.PNG
+
+
+)
 </details> 
 
  
