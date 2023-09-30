@@ -1469,7 +1469,7 @@ Performance, best practices and SEO was tested using Lighthouse.
 | Registration Confirmation| Upon registration an email is sent to verify the email address submitted | Registration email arrives into inbox of the email address used to sign up | Works as expected  
 <details><summary>See Images</summary>
 
-![Registration Confirmation](docs/user_stories/test_us4.png)
+![Registration Confirmation](docs/user_stories/test_us4.PNG)
 </details>  
 
 5.	As a Shopper / Site User I can have a profile so that I can store my information for faster checkouts in the future  
@@ -1481,6 +1481,7 @@ Performance, best practices and SEO was tested using Lighthouse.
 <details><summary>See Images</summary>
 
 ![Profile](docs/user_stories/test_us5.png)
+![Profile](docs/user_stories/test_us5_1.png)
 </details>   
 
 6.	As a Shopper / Site User I can navigate across the site so that I can can access all parts of the site  
@@ -1514,6 +1515,7 @@ Performance, best practices and SEO was tested using Lighthouse.
 <details><summary>See Images</summary>
 
 ![Message Alert](docs/user_stories/test_us8.png)
+![Message Alert](docs/user_stories/test_us8_1.png)
 </details>  
 
 9.	As a Shopper / Site User I can see my login status so that I can know if I am logged in or not  
