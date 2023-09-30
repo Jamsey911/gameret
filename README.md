@@ -1669,7 +1669,7 @@ Performance, best practices and SEO was tested using Lighthouse.
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Search Price | From the basket select secure checkout | Input user information, input card number 4242 4242 4242 4242 04/24 424 24242, payment is successful | Works as expected  
+| Search Price | From any products page, select Price | Organsies products in the requested fashion | Works as expected  
 
 <details><summary>See Images</summary>
 
@@ -1692,7 +1692,7 @@ Performance, best practices and SEO was tested using Lighthouse.
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Quantity Selection | Click the basket icon in the navbar | The basket page will appear and display all items in the basket and their cost alongside total price for all items | Works as expected  
+| Quantity Selection | From the products detail page, increase/ decrease button to desired number, click add to bag | The basket will update with the desired quantity | Works as expected    
 
 <details><summary>See Images</summary>
 
@@ -1703,7 +1703,7 @@ Performance, best practices and SEO was tested using Lighthouse.
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Bag View | From the basket press the increase/ decrease button to desired number, click update | The basket will update with the desired quantity | Works as expected  
+| Bag View | Click the Bag icon in the navbar | The basket page will appear and display all items in the basket and their cost alongside total price for all items | Works as expected 
 
 <details><summary>See Images</summary>
 
@@ -1714,7 +1714,7 @@ Performance, best practices and SEO was tested using Lighthouse.
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Bag Quanity | Upon a successful checkout an alert box will be visible to the user | Alert box pops up with the order details | Works as expected  
+| Bag Quanity | Click the Bag icon in the navbar, increase/ decrease button to desired number and then click update | The product quantiy request will be updated | Works as expected 
 
 <details><summary>See Images</summary>
 
@@ -1725,7 +1725,7 @@ Performance, best practices and SEO was tested using Lighthouse.
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Order Confirmation | Upon a successful checkout a confirmation email will be sent to the provided email address which contains the details of the order |     Email confirmation arrives into inbox | Works as expected  
+| Order Confirmation | Successfully complete a checkout | Confirmation details are displayed | Works as expected  
 
 <details><summary>See Images</summary>
 
@@ -1736,7 +1736,7 @@ Performance, best practices and SEO was tested using Lighthouse.
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Email Order Confirmation | From the navbar select the profile button as an admin logged in, click add product from the dropdown | The add product page will appear allowing the addition of a new product via the add product form | Works as expected  
+| Email Order Confirmation | Upon a successful checkout a confirmation email will be sent to the provided email address which contains the details of the order | Email confirmation arrives into inbox | Works as expected  
 
 <details><summary>See Images</summary>
 
@@ -1747,7 +1747,7 @@ Performance, best practices and SEO was tested using Lighthouse.
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Add Product | From product detail as an admin account, find a edit button on the page, click edit | Admin is brought to the edit product page where they can adjust any part of the product | Works as expected  
+| Add Product | Select the Product Management as an admin account | Add Product details are displayed | Works as expected  
 
 <details><summary>See Images</summary>
 
@@ -1759,7 +1759,7 @@ Performance, best practices and SEO was tested using Lighthouse.
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Edit Product | From product detail as an admin account, find a delete button on the page, click delete | A modal pops up and asks the admin to confirm they wish to delete the product | Works as expected |  
+| Edit Product | From product detail as an admin account, find a edit button on the page, click edit | Admin is brought to the edit product page where they can adjust any part of the product | Works as expected 
 
 <details><summary>See Images</summary>
 
@@ -1771,7 +1771,7 @@ Performance, best practices and SEO was tested using Lighthouse.
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Delete Product  | In the url address go to https://ci-pp5-teetime.herokuapp.com/admin/, log in as admin and select clubs in the side panel to the left, the clubs screen will appear and then click add club button on the top right of the screen. Add club page will appear | Add club page will appear and the user can then add information for a new golf club | Works as expected  
+| Delete Product  | From product detail as an admin account, find a delete button on the page, click delete | A modal pops up and asks the admin to confirm they wish to delete the product | Works as expected |   
 
 <details><summary>See Images</summary>
 
@@ -1783,7 +1783,7 @@ Performance, best practices and SEO was tested using Lighthouse.
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Search Alphabetical | In the url address go to https://ci-pp5-teetime.herokuapp.com/admin/, log in as admin and select clubs in the side panel to the left, the clubs screen will appear and then click a club that you desire to edit. The club page will appear allowing the user to edit information | The club page will appear and the user can then edit information for the golf club             | Works as expected  
+| Search Alphabetical | From any products page, select Name(A-Z) | Organsies products alphabetical| Works as expected  
 
 <details><summary>See Images</summary>
 
@@ -1794,7 +1794,7 @@ Performance, best practices and SEO was tested using Lighthouse.
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Message View| In the url address go to https://ci-pp5-teetime.herokuapp.com/admin/, log in as admin and select clubs in the side panel to the left, the clubs screen will appear, select the club using the checkbox and cick the action dropdown above, choose delete selected clubs and press go | The club will be deleted | Works as expected  
+| Message View | Log into admin panal and select Contacts from the About setion | All messages recieved are listed | Works as expected  
 
 <details><summary>See Images</summary>
 
@@ -1807,7 +1807,7 @@ Performance, best practices and SEO was tested using Lighthouse.
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Password Recovery | From product detail as an admin account, find a delete button on the page, click delete | A modal pops up and asks the admin to confirm they wish to delete the product | Works as expected |  
+| Password Recovery | Select Forgot Password from the sign in section, fill in required details and a email will be sent containg a link to Change Password | Password Changed | Works as expected |  
 
 <details><summary>See Images</summary>
 
@@ -1821,16 +1821,13 @@ Performance, best practices and SEO was tested using Lighthouse.
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Email Subscription | From product detail as an admin account, find a delete button on the page, click delete | A modal pops up and asks the admin to confirm they wish to delete the product | Works as expected |  
+| Email Subscription | Fill in the Subscription input in the footer | A message alert will appear and email confirmation will be sent confirming subscription | Works as expected |  
 
 <details><summary>See Images</summary>
 
 ![Email Subscription](docs/user_stories/test_us35.png)
 ![Email Subscription](docs/user_stories/test_us35_1.png)
-![Email Subscription](docs/user_stories/test_us35_2.PNG
-
-
-)
+![Email Subscription](docs/user_stories/test_us35_2.PNG)
 </details> 
 
  
