@@ -1417,6 +1417,404 @@ Performance, best practices and SEO was tested using Lighthouse.
 
 ![Sign Out](docs/validation/lh_signout.PNG)
 </details> 
+
+## Testing
+
+1. Manual testing User Stories
+2. Automated testing
+
+### Manual testing
+
+1.	As a Shopper / Site User I can register for an account so that I can have an account and view my profile
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Sign Up | Click pofile button and select register, user is brought to the sign up page| User is brought to the sign up page | Works as expected  
+
+<details><summary>See Images</summary>
+
+![Sign Up](docs/user_stories/test_us1.png)
+![Sign Up](docs/user_stories/test_us1_1.png)
+</details>  
+
+2.	As a Shopper / Site User I can login and logout so that I can have an account with my information stored for fast usage  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Sign In | Click pofile button and select login, user is brought to the sign in page | User is brought to the sign in page | Works as expected  
+
+<details><summary>See Images</summary>
+
+![Sign In](docs/user_stories/test_us2.png)
+![Sign In](docs/user_stories/test_us2_1.png)
+</details>  
+
+3.	As a Shopper / Site User I can recover my password so that I can set a new password if I forgot it 
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Reset Password | Click pofile button and select login, user is brought to the sign in page, click forgot password to go to password reset page | User is brought to password reset page | Works as expected  
+
+<details><summary>See Images</summary>
+
+![Reset Password](docs/user_stories/test_us3.png)
+![Reset Password](docs/user_stories/test_us3_1.png)
+![Reset Password](docs/user_stories/test_us3_2.png)
+</details>   
+
+4.	As a Shopper / Site User I can receive an email confirmation after registration so that I can be notified registration was successful  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Registration Confirmation| Upon registration an email is sent to verify the email address submitted | Registration email arrives into inbox of the email address used to sign up | Works as expected  
+<details><summary>See Images</summary>
+
+![Registration Confirmation](docs/user_stories/test_us4.png)
+</details>  
+
+5.	As a Shopper / Site User I can have a profile so that I can store my information for faster checkouts in the future  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Profile | From the Nav click the profile icon, select profile from dropdown and be broought to the profile page where user information is stored | Be brought to profile page | Works as expected  
+
+<details><summary>See Images</summary>
+
+![Profile](docs/user_stories/test_us5.png)
+</details>   
+
+6.	As a Shopper / Site User I can navigate across the site so that I can can access all parts of the site  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Navbar | Click on any link in the navbar to be brought to a relevant page, shop for example | Be brought to shop to view all products after clicking all products in the navbar | Works as expected  
+
+<details><summary>See Images</summary>
+
+![Navbar](docs/user_stories/test_us6.png)
+</details>   
+
+7.	As a Shopper / Site User I can use a navbar, footer, and social icons so that I can navigate the site, access menus, and access socials 
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Navbar/Footer | Scoll to footer, click on the Instagram logo | A new tab will open and bring user to the Teetime Instagram page | Works as expected  
+
+<details><summary>See Images</summary>
+
+![Navbar/Footer](docs/user_stories/test_us7.png)
+</details>   
+
+8.	As a Shopper / Site User I can be notified of my actions so that I can be aware the action was completed successfully or not  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Message Alert | Add an item from the shop to the basket | A message will appear in the alert box on screen to notify the user of this action | Works as expected  
+
+<details><summary>See Images</summary>
+
+![Message Alert](docs/user_stories/test_us8.png)
+</details>  
+
+9.	As a Shopper / Site User I can see my login status so that I can know if I am logged in or not  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Login Status | While logged out the profile icon in the navbar will be gray, log in it will change to a green color | Once logged in the profile icon will be green | Works as expected  
+
+<details><summary>See Images</summary>
+
+![Login Status](docs/user_stories/test_us9.png)
+</details>  
+
+10.	As a Shopper / Site User I can visit the shop so that I can view all products available  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Shop | Click shop in the navbar, select all products | User is then brought to the all products page of the shop | Works as expected  
+
+<details><summary>See Images</summary>
+
+![Shop](docs/user_stories/test_us10.png)
+</details>  
+
+11.	As a Shopper / Site User I can view my basket and total cost at any time so that I can so I am aware of what I am buying and it's cost 
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Bag | Click the basket icon in the navbar | User is brought to the basket page where all products in basket are displayed along with their price and total cost | Works as expected  
+
+<details><summary>See Images</summary>
+
+![Bag](docs/user_stories/test_us11.png)
+</details>  
+
+12.	As a Shopper / Site User I can view a list of products so that I can select a product to purchase  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Categories List | Select a category on the side panel, select Gents Polos     |     User is brought to the selected category of product and all products are listed | Works as expected  
+
+<details><summary>See Images</summary>
+
+![Categories List](docs/user_stories/test_us12.png)
+</details>   
+
+13.	As a Shopper / Site User I can view an individual product details so that I can view a more detailed view of the product  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Product Detail | Click on any item image in the shop, or the view button     |  User is borught to the product detail page where product details are displayed | Works as expected  
+
+<details><summary>See Images</summary>
+
+![Product Detail](docs/user_stories/test_us13.png)
+</details>  
+
+14.	As a Shopper / Site User I can view a list of consoles so that I can select a console I want to purchase  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Consoles List |  From the navbar click Clubs | User is brought to the Golf Clubs List page | Works as expected  
+
+<details><summary>See Images</summary>
+
+![Consoles List](docs/user_stories/test_us14.png)
+</details>  
+
+15.	As a Shopper / Site User I can view a list of games so that I can select a game I want to purchase  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Games List | From the Golf Clubs List page select a club and click the view golf club button | User is brought to the details page for the selected golf club | Works as expected  
+
+<details><summary>See Images</summary>
+
+![Games List](docs/user_stories/test_us15.png)
+</details> 
+
+16.	As a Shopper / Site User I can view a list of accessories so that I can select an accessory I want to purchase  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Accessories List | From golf club details page find the book a teetime form on the page, select a club, date and time | User is then brought to a confirmation page | Works as expected  
+
+<details><summary>See Images</summary>
+
+![Accessories List](docs/user_stories/test_us16.png)
+</details>  
+
+17.	As a Shopper / Site User I can view individual consoles so that I can see more detailed information about it 
+ 
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Console View | Search box in the navigation bar, input keyword to search such as "blue", click search | All items with the relevant keyword will be displayed | Works as expected  
+
+<details><summary>See Images</summary>
+
+![Console View](docs/user_stories/test_us17.png)
+</details>  
+
+18.	As a Shopper / Site User I can view individual games so that I can see more detailed information about it  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Game View | Input a keyword into the search box in the navbar and click search | All items matching the search critearia are only displayed | Works as expected  
+
+<details><summary>See Images</summary>
+
+![Game View](docs/user_stories/test_us18.png)
+</details>  
+
+19.	As a Shopper / Site User I can view individual accessories so that I can see more detailed information about it  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Accessories View | From the shop page, click a category on the side panel such as headwear | User is brought to the headwear page where only products classed as headwear are displayed | Works as expected  
+
+<details><summary>See Images</summary>
+
+![Accessories View](docs/user_stories/test_us19.png)
+</details>  
+
+20.	As a Shopper / Site User I can search for a product by name or description so that I can find a certain product 
+ 
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Search | From the shop page, click the sort box and select price from high to low | All items will be sorted from the highest price to the lowest price | Works as expected  
+
+<details><summary>See Images</summary>
+
+![Search](docs/user_stories/test_us20.png)
+</details>  
+
+21.	As a Shopper / Site User I can see my search results so that I can only see what I am searching for  
+
+- The format used was unique together which checks that the selected date, time and club booking is unique, if the user selects a date, time and club already booked they will get a message asking them to select another time/date. Ideally I plan to remove the unavailable times from the dropdown to avoid the user clicking and going through the process to be told to select another time/date. Time constraints was the main isssue.
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Search View | From golf club detail page, select a date and time for selected club | If time is available a confirmation page will appear, if the time is already booked an error message will appear asking the user to select another time. | Works as expected  
+
+<details><summary>See Images</summary>
+
+![Search View](docs/user_stories/test_us21.png)
+</details>  
+
+22.	As a Shopper / Site User I can sort by price low to high and high to low so that I can view products according to my budget  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Search Price | From the basket select secure checkout | Input user information, input card number 4242 4242 4242 4242 04/24 424 24242, payment is successful | Works as expected  
+
+<details><summary>See Images</summary>
+
+![Search Price](docs/user_stories/test_us22.png)
+</details>  
+
+23.	As a Shopper / Site User I can use a card as the payment method so that I can complete my purchase  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Payment Method | From Product details page select a size for the product in the size box, increase or decrease quantity from the quantity box | Sizes will be selected and quantity adjusted | Works as expected  
+
+<details><summary>See Images</summary>
+
+![Payment Method](docs/user_stories/test_us23.png)
+</details>  
+
+24.	As a Shopper / Site User I can select the quantity of a product so that I can select a quantity that suites my needs 
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Quantity Selection | Click the basket icon in the navbar | The basket page will appear and display all items in the basket and their cost alongside total price for all items | Works as expected  
+
+<details><summary>See Images</summary>
+
+![Quantity Selection](docs/user_stories/test_us24.png)
+</details>  
+
+25.	As a Shopper / Site User I can view items in my basket so that I can be aware of what I am buying and it's cost 
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Bag View | From the basket press the increase/ decrease button to desired number, click update | The basket will update with the desired quantity | Works as expected  
+
+<details><summary>See Images</summary>
+
+![Bag View](docs/user_stories/test_us25.png)
+</details>  
+
+26.	As a Shopper / Site User I can adjust item quantity in my basket so that I can increase or reduce item count according to my needs  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Bag Quanity | Upon a successful checkout an alert box will be visible to the user | Alert box pops up with the order details | Works as expected  
+
+<details><summary>See Images</summary>
+
+![Bag Quanity](docs/user_stories/test_us26.png)
+</details>  
+
+27.	As a Shopper / Site User I can receive order confirmation so that I can be notified of a successful order  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Order Confirmation | Upon a successful checkout a confirmation email will be sent to the provided email address which contains the details of the order |     Email confirmation arrives into inbox | Works as expected  
+
+<details><summary>See Images</summary>
+
+![Order Confirmation](docs/user_stories/test_us27.png)
+</details>  
+
+28.	As a Shopper / Site User I can receive email confirmation so that I can have a record of my purchase  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Email Order Confirmation | From the navbar select the profile button as an admin logged in, click add product from the dropdown | The add product page will appear allowing the addition of a new product via the add product form | Works as expected  
+
+<details><summary>See Images</summary>
+
+![Email Order Confirmation](docs/user_stories/test_us28.png)
+</details> 
+
+29.	As a Store Owner / Admin I can add a product so that I can add new products to the shop  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Add Product | From product detail as an admin account, find a edit button on the page, click edit | Admin is brought to the edit product page where they can adjust any part of the product | Works as expected  
+
+<details><summary>See Images</summary>
+
+![Add Product](docs/user_stories/test_us29.png)
+</details>  
+
+30.	As a Store Owner / Admin I can edit a product so that I can edit existing products in the shop  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Edit Product | From product detail as an admin account, find a delete button on the page, click delete | A modal pops up and asks the admin to confirm they wish to delete the product | Works as expected |  
+
+<details><summary>See Images</summary>
+
+![Add Product](docs/user_stories/test_us30.png)
+</details>   
+
+31.	As a Store Owner / Admin I can delete a product so that I can delete existing products from the shop 
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Delete Product  | In the url address go to https://ci-pp5-teetime.herokuapp.com/admin/, log in as admin and select clubs in the side panel to the left, the clubs screen will appear and then click add club button on the top right of the screen. Add club page will appear | Add club page will appear and the user can then add information for a new golf club | Works as expected  
+
+<details><summary>See Images</summary>
+
+![Delete Product ](docs/user_stories/test_us31.png)
+</details>  
+
+32.	As a Shopper / Site User I can Sort products in alphabetical order so that I can search products by letter  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Search Alphabetical | In the url address go to https://ci-pp5-teetime.herokuapp.com/admin/, log in as admin and select clubs in the side panel to the left, the clubs screen will appear and then click a club that you desire to edit. The club page will appear allowing the user to edit information | The club page will appear and the user can then edit information for the golf club             | Works as expected  
+
+<details><summary>See Images</summary>
+
+![Search Alphabetical](docs/user_stories/test_us32.png)
+</details>   
+
+33.	As a Store Owner / Admin I can view messages sent in by public so that I can gather feedback and converse its with its community  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Message View| In the url address go to https://ci-pp5-teetime.herokuapp.com/admin/, log in as admin and select clubs in the side panel to the left, the clubs screen will appear, select the club using the checkbox and cick the action dropdown above, choose delete selected clubs and press go | The club will be deleted | Works as expected  
+
+<details><summary>See Images</summary>
+
+![Message View](docs/user_stories/test_us33.png)
+</details> 
+
+34.	As a Site User I can recover my password so that I can set a new password if I forgot it
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Password Recovery | From product detail as an admin account, find a delete button on the page, click delete | A modal pops up and asks the admin to confirm they wish to delete the product | Works as expected |  
+
+<details><summary>See Images</summary>
+
+![Password Recovery](docs/user_stories/test_us34.png)
+</details> 
+
+35.	As a Shopper / Site User I can subscribe to a newsletter so that I can Keep updated with the latest new from the store 
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Email Subscription | From product detail as an admin account, find a delete button on the page, click delete | A modal pops up and asks the admin to confirm they wish to delete the product | Works as expected |  
+
+<details><summary>See Images</summary>
+
+![Email Subscription](docs/user_stories/test_us35.png)
+</details> 
+
  
 
 

@@ -187,7 +187,7 @@ a.category-badge > span.badge:hover {
 }
 .pagination-underline:hover {
     text-decoration: underline;
-    text-decoration-color: #FDFDF6;
+    color: #65DAEC;
 }
 
 .banner-font {
