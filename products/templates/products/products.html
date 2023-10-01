@@ -16,8 +16,8 @@
     <div class="popupContent">
         <h1 class="text-black">Delete Product</h1>
         <p>Are you sure?</p>
-        <a class='btn btn-outline-danger m-2' href="{% url 'products'  %}">Delete</a>
-        <a class="btn btn-outline-dark m-2" href="#" >Cancel</a>
+        <a class='btn btn-outline-danger m-2' href="#" id="deleteButton">Delete</a>
+        <a class="btn btn-outline-dark m-2 close" href="#" >Cancel</a>
     </div>
 </div>
 <div class="overlay"></div>
@@ -101,7 +101,7 @@
                                             <hr style="background-color: black;">
                                             <small class="text-black rounded px-2 row d-flex m-3 justify-content-center text-center">
                                                 <a href="{% url 'edit_product' product.id %}" class="edit-btn mr-1">Edit</a> | 
-                                                <a class="ml-1 open custom-danger" href="#">Delete</a>
+                                                <a data-id="{{ product.id }}" href="#" class="ml-1 open custom-danger deleteButton" >Delete</a>
                                             </small>
                                         {% endif %}
                                     </div>
@@ -198,5 +198,14 @@
             $('.popupOverlay, .popupContent').removeClass('active');
         });
     });
+</script>
+<script>
+    const deleteButton = document.querySelector('#deleteButton');
+    const deleteButtons = document.querySelectorAll('.deleteButton');
+    deleteButtons.forEach(button => button.addEventListener('click', (event) =>{
+        const id = event.target.dataset.id;
+        deleteButton.href = `/products/delete/${id}/`
+    }))
+
 </script>
 {% endblock %}

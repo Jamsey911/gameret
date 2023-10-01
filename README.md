@@ -38,8 +38,8 @@
   - [Testing](#testing)
     - [Manual testing](#manual-testing)
     - [Automated testing](#automated-testing)
-    - [Tests on various devices](#tests-on-various-devices)
-    - [Browser compatibility](#browser-compatibility)
+    - [Device Testing](#device-testing)
+    - [Browser Compatibility](#browser-compatibility)
   - [Bugs](#bugs)
   - [Deployment](#deployment)
   - [Credits](#credits)
@@ -1073,12 +1073,6 @@ JSHint javaScript Validation Service was used to validate all javaScript files.
 ![Models](docs/validation/about_models_py.PNG)
 </details>
 
-
-<!-- <details><summary>tests.py</summary>
-
-![Tests](docs/validation/about_tests_py.PNG)
-</details> -->
-
 <details><summary>urls.py</summary>
 
 ![Urls](docs/validation/about_urls_py.PNG)
@@ -1133,16 +1127,6 @@ JSHint javaScript Validation Service was used to validate all javaScript files.
 
 ![Signals](docs/validation/checkout_signals_py.PNG)
 </details>
-
-<!-- <details><summary>tests.py</summary>
-
-![Webhook handler](docs/validation/checkout_webhook_handler_py.PNG)
-</details>
-
-<details><summary>tests.py</summary>
-
-![webhook](docs/validation/checkout_webhook_py.PNG)
-</details> -->
 
 <details><summary>urls.py</summary>
 
@@ -1829,6 +1813,223 @@ Performance, best practices and SEO was tested using Lighthouse.
 ![Email Subscription](docs/user_stories/test_us35_1.png)
 ![Email Subscription](docs/user_stories/test_us35_2.PNG)
 </details> 
+
+### Automated testing
+
+- Testing was done using the built in Django module, unittest.
+- Coverage was also usesd to generate a report
+
+
+<details><summary> About, test_forms.py</summary>
+
+![About Test Forms](docs/testing/about_test_forms.PNG)
+</details> 
+
+<details><summary> About, test_models.py</summary>
+
+![About Test Models](docs/testing/about_test_models.PNG)
+</details> 
+
+<details><summary> About, test_views.py</summary>
+
+![About Test Views](docs/testing/about_test_views.PNG)
+</details> 
+
+<details><summary> Bag, test_views.py</summary>
+
+![Bag Test Views](docs/testing/bag_test_views.PNG)
+</details> 
+
+<details><summary> Checkout, test_forms.py</summary>
+
+![Checkout Test Forms](docs/testing/checkout_test_forms.PNG)
+</details> 
+
+<details><summary> Checkout, test_models.py</summary>
+
+![Checkout Test Models](docs/testing/checkout_test_models.PNG)
+</details> 
+
+<details><summary> Checkout, test_views.py</summary>
+
+![Checkout Test Views](docs/testing/checkout_test_views.PNG)
+</details> 
+
+<details><summary> Products, test_models.py</summary>
+
+![Products Test Views](docs/testing/products_test_models.PNG)
+</details> 
+
+<details><summary> Products, test_views.py</summary>
+
+![Products Test Views](docs/testing/products_test_views.PNG)
+</details> 
+
+
+### Coverage  
+A Python test plugin called coverage was used to generate the following results and display how much of the code was covered by the unittest module.
+
+<details><summary>Coverage</summary>
+
+![Coverage](docs/testing/coverage.png)
+</details> 
+
+
+### Device Testing
+The website was tested on the following devices:
+- HP Pavilion laptop
+- Smasung S21+
+- Ipad (8th Generation)
+- Iphone 12 Pro
+
+### Browser Compatibility
+The website was tested on the following browsers:
+- Google Chrome
+- Microsoft Egde
+- Apple Safari
+
+
+##### Back to [top](#table-of-contents)<hr>
+
+
+## Bugs
+
+| **Bug** | **Fix** |
+| ------- | ------- |
+| Accessibility Validation for image field in add procut view  | Added alt test to widget |
+| Pagination for filtered querys returnig all products on 2nd page | Altered links in html and added pag_filter into templatetags |
+| Overlay not showing when deleting product | Added javascript to resolve this |
+| Contact form shoing 404 when sent | Updated migrations and updated workspace variables |
+| Confirmation eamil showing default message | Updated domain in admin |
+
+## Deployment
+
+### AWS S3 Bucket Setup  
+
+To set up an AWS S3 bucket:
+
+1. Log into the AWS Management Console and select the Amazon S3 console.  
+
+2. Click on the "Create Bucket" button.  
+
+3. Enter a unique name for your bucket and select the region where you want the bucket to be located.
+
+4. Configure any additional options, such as versioning, object-level logging, and object tagging, as needed.  
+
+5. Click on the "Create" button to create the bucket.
+
+6. Set up the appropriate permissions for the bucket, such as access control lists (ACLs) and bucket policies, to control who can access the data in the bucket.  
+
+7. Upload files to the bucket using the AWS S3 console, the AWS S3 CLI, or the AWS S3 SDK.  
+
+8. Access your files through the AWS S3 Console, AWS S3 CLI, or the AWS S3 SDK.  
+
+### Creating a Database
+
+1. To generate a managed PostgreSQL database,  visit the [ElephantSQL](https://customer.elephantsql.com/ ) website  and either create a new account or log in to your existing account. After successfully logging in, follow the steps below to proceed with generating the database
+2. Navigate to the dashboard or homepage of your ElephantSQL account.
+click on the 'Create New Instance' button
+
+3. Name your database and select the 'Tiny Turtle' payment plan. Then, click on 'Select Region'
+
+4.  Select your preferred region and create the database instance.
+After creating the instance, navigate to the instances page and click on the name of the database you selected earlier. Then, in the details section on the following page, copy the PostgreSQL URL.
+
+5. Copy database Url cause its needed for heroku:
+
+### Stripe payment gateway
+
+1. Create an account or login  to  [Stripe](https://dashboard.stripe.com/)
+Navigate to home tab
+
+2. under developers section copy the values of:
+ `SECRET_KEY ` and `PUBLIC_KEY`
+
+3. Navigate to developer section of stripe dashboard
+and Click on the `webhooks` tab to add an endpoint
+
+4. Create a webhook with url of deployed project in this format
+https://yourwebsite.com/checkout/wh/
+
+
+5. Choose events the webhook will receive(payment intent events) and
+add endpoint
+
+6. Ensure your webhook is working by doing test with various events
+
+7. Add those keys as env variables to your env.py file and settings.py file while later those values will be needed for heroku deployment
+        
+
+
+### Heroku Deployment
+
+* This site was deployed by completing the following steps:
+
+1. Log in to [Heroku](https://id.heroku.com) or create an account
+
+2. On the main page click the "New" in the top right corner and select Create New App from the drop dwon menu
+
+3. No name can be duplicated so choose an original title
+
+4. Choose the region where you are based
+
+5. Click the create new app input
+
+6. Choose the settings Tab then select config vars to enter in values
+
+7. Click Reveal Config Vars and choose a port for the key label, 8000 for the value labal and then choose add.  
+
+8. Next, scroll down to the Buildpack section click Add Buildpack select python and click Save Changes
+
+9. Click add buildpacks and selct heroku/python and node.js(Must be in this order, they can be clicked and dragged if they need to be changed)
+
+10. Next select the deploy tab near the top of the page
+
+11. Choose Github as the deployment method
+
+12. Select the repository name and then the connect button
+
+13. At the bottom of the deploy page, select the preferred deployment type (Enable Automatic Deploys for automatic deployment or deploy from branch to push the deployment manually)
+
+### Forking This Project
+
+* Fork this project by following the steps:
+You can for fork the repository by following these steps:
+1. From the GitHub repository
+
+2. Click the Fork button on the upper right hand corner
+
+### Cloning This Project
+
+* You can clone the repository by following these steps:
+1. From the GitHub repository 
+
+2. Select the Code button on top of the list of files
+
+3. Choose your prefeared option to clone HTTPS, SSH, or Github CLI. Select the copy button to copy the URL to your clipboard
+
+4. Open Git Bash and edit the current working directory to the one where you want the copied directory
+
+5. Type git clone and paste in URL that you copied ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
+
+6. Next click enter and you will have your local clone
+
+## Credits
+
+### Media
+Images used can be found at:
+- [Pexels](https://www.pexels.com/)
+- [Amazon](https://www.amazon.co.uk/)
+
+
+### Code
+
+- The inital code was adapted from lessons taught by Code Institute's, program, tutor's, menotor's, fellow students and it's Slack Channels : [Code Institute : Home Page](https://codeinstitute.net/ie/full-stack-software-development-diploma/?utm_term=code%20institute&utm_campaign=CI+-+IRL+-+Search+-+Brand&utm_source=adwords&utm_medium=ppc&hsa_acc=8983321581&hsa_cam=14304747355&hsa_grp=128775288209&hsa_ad=635725005315&hsa_src=g&hsa_tgt=kwd-319867646331&hsa_kw=code%20institute&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad=1&gclid=Cj0KCQjwnf-kBhCnARIsAFlg491o7ee6Cfv20TwyLD9KWyi47xYkCWKMp3_EWqWQl8eaGV1AWRGDvgEaAnHjEALw_wcB)
+
+## Acknowledgements
+I would like to thank:
+- My mentor Mo Shami for his feedback and helpful advice
+- To Code Institute for their helpful and informative guidance
 
  
 

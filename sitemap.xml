@@ -1,0 +1,2162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/bag/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/about/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/?sort=price&amp;direction=asc</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/?sort=rating&amp;direction=desc</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/?sort=category&amp;direction=asc</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/?category=playstation</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/?category=xbox</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/?category=nintendo</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/?category=retro</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/?category=playstation,xbox,nintendo,retro</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/?category=retro_video_games</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/?category=new_gen_video_games</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/?category=retro_video_games,new_gen_video_games</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/?category=playstation_accessories</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/?category=xbox_accessories</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/?category=nintendo_accessories</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/?category=retro_accessories</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/?category=playstation_accessories,xbox_accessories,nintendo_accessories,retro_accessories</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/password/reset/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/73/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/123/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/119/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/115/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/112/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/100/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/45/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/102/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/108/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/101/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/104/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/175/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/?page=2&amp;sort=price&amp;direction=asc</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/?page=11&amp;sort=price&amp;direction=asc</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/62/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/76/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/22/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/54/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/52/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/63/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/5/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/47/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/40/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/19/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/80/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/?page=2&amp;sort=rating&amp;direction=desc</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/?page=11&amp;sort=rating&amp;direction=desc</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/58/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/65/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/56/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/55/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/59/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/60/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/57/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/64/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/?page=2&amp;sort=category&amp;direction=asc</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/?page=11&amp;sort=category&amp;direction=asc</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/7/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/10/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/8/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/13/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/3/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/6/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/11/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/12/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/1/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/?page=2</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/?page=11</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/4/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/38/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/2/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/15/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/16/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/17/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/18/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/53/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/14/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/23/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/20/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/21/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/24/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/39/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/121/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/?page=2&amp;category=playstation%2Cxbox%2Cnintendo%2Cretro</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/?page=3&amp;category=playstation%2Cxbox%2Cnintendo%2Cretro</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/116/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/103/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/105/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/106/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/107/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/109/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/110/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/?page=2&amp;category=retro_video_games</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/?page=2&amp;category=new_gen_video_games</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/?page=4&amp;category=new_gen_video_games</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/?page=2&amp;category=retro_video_games%2Cnew_gen_video_games</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/?page=6&amp;category=retro_video_games%2Cnew_gen_video_games</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/26/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/25/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/29/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/28/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/41/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/42/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/27/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/31/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/33/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/43/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/44/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/48/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/30/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/32/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/49/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/34/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/35/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/73/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/123/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/119/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/115/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/112/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/100/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/45/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/102/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/108/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/101/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/104/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/175/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/113/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/62/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/76/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/22/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/54/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/52/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/63/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/5/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/47/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/40/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/19/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/80/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/89/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/83/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/58/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/65/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/56/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/55/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/59/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/60/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/57/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/64/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/66/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/79/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/7/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/10/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/8/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/13/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/3/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/6/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/11/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/12/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/1/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/?page=1&amp;</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/?page=10&amp;</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/4/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/38/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/2/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/15/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/16/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/17/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/18/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/53/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/14/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/23/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/20/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/21/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/24/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/39/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/121/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/?page=1&amp;category=playstation%2Cxbox%2Cnintendo%2Cretro</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/116/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/103/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/105/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/106/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/107/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/109/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/110/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/111/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/114/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/?page=3&amp;category=retro_video_games%2Cnew_gen_video_games</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/26/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/25/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/29/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/28/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/41/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/42/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/27/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/31/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/33/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/43/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/44/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/48/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/30/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/32/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/49/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/34/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/35/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F73%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F123%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F119%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F115%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F112%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F100%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F45%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F102%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F108%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F101%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F104%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F175%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/113/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F62%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F76%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F22%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F54%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F52%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F63%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F5%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F47%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F40%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F19%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F80%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/89/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/83/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F58%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F65%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F56%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F55%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F59%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F60%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F57%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F64%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/66/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/79/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F7%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F10%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F8%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F13%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F3%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F6%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F11%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F12%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F1%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/?page=2&amp;</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/?page=9&amp;</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F4%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F38%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F2%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F15%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F16%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F17%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F18%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F53%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F14%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F23%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F20%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F21%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F24%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F39%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F121%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F116%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F103%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F105%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F106%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F107%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F109%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F110%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/111/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/114/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/81/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/82/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/85/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/86/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/99/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/88/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/?page=4&amp;category=retro_video_games%2Cnew_gen_video_games</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F26%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F25%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F29%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F28%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F41%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F42%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F27%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F31%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F33%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F43%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F44%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F48%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F30%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F32%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F49%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F34%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F35%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F73%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F123%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F119%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F115%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F112%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F100%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F45%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F102%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F108%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F101%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F104%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F175%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F113%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F62%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F76%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F22%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F54%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F52%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F63%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F5%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F47%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F40%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F19%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F80%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F89%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F83%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F58%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F65%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F56%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F55%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F59%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F60%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F57%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F64%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F66%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F79%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F7%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F10%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F8%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F13%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F3%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F6%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F11%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F12%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F1%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/?page=8&amp;</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F4%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F38%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F2%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F15%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F16%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F17%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F18%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F53%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F14%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F23%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F20%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F21%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F24%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F39%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F121%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F116%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F103%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F105%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F106%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F107%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F109%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F110%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F111%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F114%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/81/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/82/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/85/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/86/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/99/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/88/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/91/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/92/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/93/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F26%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F25%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F29%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F28%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F41%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F42%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F27%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F31%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F33%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F43%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F44%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F48%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F30%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F32%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F49%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F34%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F35%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F113%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F89%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F83%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F66%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F79%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/?page=7&amp;</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F111%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F114%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F81%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F82%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F85%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F86%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F99%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F88%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/91/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/92/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=/products/delete/93/</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/?page=6&amp;</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.21</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F81%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.21</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F82%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.21</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F85%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.21</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F86%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.21</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F99%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.21</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F88%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.21</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F91%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.21</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F92%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.21</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F93%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.21</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/?page=5&amp;</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.17</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F91%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.17</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F92%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.17</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F93%2F</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.17</priority>
+</url>
+<url>
+  <loc>https://gameret-e526d0bda5ef.herokuapp.com/products/?page=4&amp;</loc>
+  <lastmod>2023-10-01T17:54:38+00:00</lastmod>
+  <priority>0.13</priority>
+</url>
+
+
+</urlset>

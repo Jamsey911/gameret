@@ -62,6 +62,9 @@ h5 {
     width: fit-content;
 }
 
+.bag-image:hover {
+    color: #fdfdf6;
+}
 
 .shop-now-button {
     background: #fdfdf6;
