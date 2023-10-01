@@ -784,6 +784,10 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 ##### Back to [top](#table-of-contents)<hr>
 
+# Validation  
+
+## HTML Validation
+
 The W3C Markup Validation Service was used to validate the HTML of the website.  
 
 ### Home  
@@ -1248,6 +1252,7 @@ JSHint javaScript Validation Service was used to validate all javaScript files.
 </details>  
 
 ##### Back to [top](#table-of-contents)<hr>  
+
 
 ## Accessibility  
 The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/) was used to ensure the website met high accessibility standards.  
@@ -1896,6 +1901,8 @@ The website was tested on the following browsers:
 | Contact form shoing 404 when sent | Updated migrations and updated workspace variables |
 | Confirmation eamil showing default message | Updated domain in admin |
 
+##### Back to [top](#table-of-contents)
+
 ## Deployment
 
 ### AWS S3 Bucket Setup  
@@ -2025,6 +2032,7 @@ I would like to thank:
 - My mentor Mo Shami for his feedback and helpful advice
 - To Code Institute for their helpful and informative guidance
 
+##### Back to [top](#table-of-contents)
  
 
 
