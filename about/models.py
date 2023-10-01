@@ -8,9 +8,7 @@ class Contact(models.Model):
     """
     class that handles contacting the store
     """
-
     # options for  Purpose of Inquiry
-
     INQUIRY_CHOICES = [
         ('', 'Purpose of Inquiry'),
         ('PRODUCT', 'Product Inquiry'),

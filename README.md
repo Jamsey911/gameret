@@ -86,19 +86,19 @@ Gameret will generate revenue through the sale of products in our ecommerce shop
 
 In terms of financing, Gameret will initially be funded through a combination of personal investment and a small seed round of funding. As the business grows, we will explore additional funding options such as venture capital or a larger round of financing.
 
-In terms of projections, we anticipate strong growth in both revenue streams over the first few years of operation. In the first year, we expect to generate €100,000 in revenue coming from product sales. In the second year, we expect to see revenue increase to €200,000 coming from product sales. By the third year, we anticipate revenue to reach €300,000 coming from software sales.
+In terms of projections, we anticipate strong growth in revenue streams over the first few years of operation. In the first year, we expect to generate €100,000 in revenue coming from product sales. In the second year, we expect to see revenue increase to €200,000 coming from product sales. By the third year, we anticipate revenue to reach €300,000 coming from software sales.
 
 In terms of profitability, we expect to break even within the first year of operation and achieve profitability in the second year.
 
 ### Conclusion:
 
-Gameret is a unique and innovative platform that aims to connect gamers with new and rare items, while also offering a convenient and user-friendly platform for purchasing video game related products. With strong growth potential and a clear revenue model, we believe that Gameret has the potential to become a leading player in the golf industry.
+Gameret is a unique and innovative platform that aims to connect gamers with new and rare items, while also offering a convenient and user-friendly platform for purchasing video game related products. With strong growth potential and a clear revenue model, we believe that Gameret has the potential to become a leading player in the gaming industry.
 ##### Back to [top](#table-of-contents)<hr>
 
 ## Marketing  
 
 ### Social Media  
-The web app "Gameret" has a presence on both Facebook. The Facebook page serves as a platform to promote upcoming events, post updates on the latest features, and share user-generated content. This social media account allow users to stay informed and connected with the "Gameret" community.
+The web app "Gameret" has a presence on Facebook. The Facebook page serves as a platform to promote upcoming events, post updates on the latest features, and share user-generated content. This social media account allow users to stay informed and connected with the "Gameret" community.
 
 [Facebook Mockup](docs/facebook/facebook_wireframe.png)  
 [Facebook Suspended Account](docs/facebook/facebook_suspend.PNG)
@@ -428,7 +428,7 @@ I built my database using PostgreSQL. It's a powerful and open-source object-rel
 |            | delivery_cost   | DecimalField[6]    |
 |            | order_total     | DecimalField[10]   |
 |            | grand_total     | DecimalField[10]   |
-|            | original_basket | TextField          |
+|            | original_bag    | TextField          |
 |            | stripe_pid      | CharField          |
 
 ### OrderLineItem Model  
@@ -607,7 +607,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 <details><summary>See feature image</summary>
 
-![Golf Club Detail](docs/features/products.PNG)
+![Product View](docs/features/products.PNG)
 </details>
 
 ### Products detail 
@@ -616,11 +616,11 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 <details><summary>See feature images</summary>
 
-![product](docs/features/products_detail.PNG)
+![Product Detail](docs/features/products_detail.PNG)
 </details>
 
 ### Bag
-- Allows the user to view the basket with their items. 
+- Allows the user to view the bag with their items. 
 - User stories covered: 11, 26
 
 <details><summary>See feature image</summary>
@@ -650,13 +650,13 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 </details>  
 
 
-### Delete Product From Bag
+### Remove Product From Bag
 - Allows the user to cancel their bookings.  
 - User stories covered: 25, 27
 
 <details><summary>See feature image</summary>
 
-![Delete Product](docs/features/delete_bag.png)
+![Remove Product](docs/features/delete_bag.png)
 </details>  
 
 
@@ -708,7 +708,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 <details><summary>See feature image</summary>
 
-![Email Confirmation](docs/features/confirmation.PNG)
+![Email Confirmation](docs/features/confirmation.png)
 </details>  
 
 
@@ -868,7 +868,7 @@ The W3C Markup Validation Service was used to validate the HTML of the website.
 | Info | Edit Product | Trailing slash on void elements has no effect and interacts badly with unquoted attribute values. | Noted| 
 
 
-### Basket  
+### Bag  
 
 - No Errors Found
 
@@ -926,6 +926,7 @@ The W3C Markup Validation Service was used to validate the HTML of the website.
 |-------------|-------------|----------------------|-------------|
 | Error | N/A | N/A | N/A |
 | Warning | N/A | N/A | N/A | 
+| Info | Edit Product | Trailing slash on void elements has no effect and interacts badly with unquoted attribute values. | Noted| 
 
 
 ### About 
@@ -1528,7 +1529,7 @@ Performance, best practices and SEO was tested using Lighthouse.
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Bag | Click the basket icon in the navbar | User is brought to the bag page where all products in basket are displayed along with their price and total cost | Works as expected  
+| Bag | Click the Bag icon in the navbar | User is brought to the bag page where all products in Bag are displayed along with their price and total cost | Works as expected  
 
 <details><summary>See Images</summary>
 

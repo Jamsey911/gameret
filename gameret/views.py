@@ -20,5 +20,4 @@ def handler403(request, exception):
     if isinstance(exception, PermissionDenied):
         return render(request, 'errors/403.html', status=403)
     else:
-        # Handle unexpected errors with a generic 500 error page
         return render(request, 'errors/500.html', status=500)
