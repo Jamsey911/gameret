@@ -73,6 +73,7 @@ Content marketing through our blog and email newsletter
 Partnerships and sponsorships with video-game related brands
 Public relations efforts to generate press coverage and raise awareness of Gameret
 
+
 ### Operations and Management:
 
 Gameret will be operated and managed by a small team of experienced professionals. The team will consist of a CEO, CTO, and marketing and sales staff.
@@ -249,49 +250,42 @@ Gameret uses Mailchimp to manage its mailing list. By joining the mailing list, 
 
 ##### Back to [top](#table-of-contents)<hr>
 
-<!-- ## Wireframes
+## Wireframes
 I used Balsamiq to create wireframes for my project. It's a user-friendly wireframing tool that enables me to quickly and easily create mockups for my website or application. It offers a wide range of pre-built UI elements, and allows for easy collaboration with my team. I linked a pdf of my wireframes, which you can access it and check it out the design, layout and the flow of the project before implementing it in the real product.  
 
-<a href="https://github.com/ArronBeale/CI_PP5_tee_time/raw/main/docs/wireframes/wireframes-teetime.pdf" target="_blank">Download Wireframes PDF</a>  
-(Ctrl + click to open in new tab)  
-
-<details><summary>Wireframe Home</summary>  
-
-![Epics](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-home.PNG)
+<details><summary>Home</summary>
+<img src="docs/wireframes/home.png">
 </details>
-
-<details><summary>Wireframe Profile</summary>  
-
-![Epic 1](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-profile.PNG)
+<details><summary>Products</summary>
+<img src="docs/wireframes/products.png">
 </details>
-
-<details><summary>Wireframe Clubs</summary>  
-
-![Epic 2](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-clubs.PNG)
+<details><summary>Product Details</summary>
+<img src="docs/wireframes/product_detail.png">
 </details>
-
-<details><summary>Wireframe Club Detail</summary>  
-
-![Epic 3](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-club-detail-01.PNG)
-![Epic 3](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-club-detail-02.PNG)
+<details><summary>Bag</summary>
+<img src="docs/wireframes/bag.png">
 </details>
-
-<details><summary>Wireframe Shop</summary>  
-
-![Epic 4](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-shop.PNG)
-</details>  
-
-<details><summary>Wireframe Product Detail</summary>  
-
-![Epic 4](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-product-detail.PNG)
-</details> 
-
-<details><summary>Wireframe Checkout</summary>  
-
-![Epic 4](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-checkout.PNG)
-</details>  
-
-<hr> -->
+<details><summary>Checkout</summary>
+<img src="docs/wireframes/checkout.png">
+</details>
+<details><summary>Checkout Success</summary>
+<img src="docs/wireframes/checkout_success.png">
+</details>
+<details><summary>About</summary>
+<img src="docs/wireframes/about.png">
+</details>
+<details><summary>Sign in</summary>
+<img src="docs/wireframes/signin.png">
+</details>
+<details><summary>Sign Out</summary>
+<img src="docs/wireframes/signout.png">
+</details>
+<details><summary>Register</summary>
+<img src="docs/wireframes/register.png">
+</details>
+<details><summary>404</summary>
+<img src="docs/wireframes/404.png">
+</details>
 
 ## Design
 
