@@ -2,7 +2,6 @@ html {
     height: 100%;
 }
 
-
 ::-webkit-scrollbar {
     background: #454A4F;
 }
@@ -75,7 +74,7 @@ h5 {
 
 .btn-outline-black {
     background: white;
-    color: black !important; /* use important to override link colors for <a> elements */
+    color: black !important;
     border: 1px solid black;
 }
 
@@ -472,7 +471,7 @@ a.category-badge > span.badge:hover {
 
     .btn.btn-outline-black.rounded-0.btn-lg,
     .btn.btn-black.rounded-0.btn-lg,
-    .btn.btn-secondary {
+    .btn.btn-secondary.rounded-0.btn-lg {
         padding: .375rem .375rem;
         font-size: .75rem;
     }
