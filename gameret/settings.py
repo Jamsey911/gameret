@@ -54,6 +54,7 @@ INSTALLED_APPS = [
     'blog',
 
     # Other
+    "django_summernote",
     'crispy_forms',
     'storages'
 ]
