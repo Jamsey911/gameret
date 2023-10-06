@@ -55,9 +55,6 @@ class Post(models.Model):
         return self.likes.count()
 
 
-# Model for comments in the blog
-
-
 class Comment(models.Model):
     """
     Model to add comment to blog

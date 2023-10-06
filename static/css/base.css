@@ -205,6 +205,13 @@ a.category-badge > span.badge:hover {
 .navbar-mobile {
     padding-left: 0px;
 }
+
+/* Offsets blog header from navbar */
+.blog-header{
+    margin-top: 100px !important;
+    text-underline-offset: 0.6em;
+}
+
 /* ------------------------------- bootstrap toasts */
 
 .message-container {
@@ -478,6 +485,9 @@ a.category-badge > span.badge:hover {
 
     .increment-qty, .decrement-qty {
         padding: .25rem .5rem !important;
+    }
+    .blog-header{
+        margin-top: 50px;
     }
 }
 
