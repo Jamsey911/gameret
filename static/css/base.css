@@ -489,6 +489,12 @@ a.category-badge > span.badge:hover {
     .blog-header{
         margin-top: 50px;
     }
+    .dropdown-menu {
+        background: #474D52;
+    }
+    .dropdown-item {
+        color: #f8f9fa;
+    }
 }
 
 /* Expand popup on smaller screens */

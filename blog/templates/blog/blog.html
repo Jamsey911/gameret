@@ -27,7 +27,7 @@
                         <img class="card-img-top mt-2" src="{{ post.featured_image.url }}" alt="image for blog post {{ post.title }}"></a>
                     {% else %}
                     <a href="{% url 'post_detail' post.slug %}">
-                        <img class="card-img-top mt-2" src="{% static 'img/default-image.jpg' %}"
+                        <img class="card-img-top mt-2" src="{{ MEDIA_URL }}noimage.png"
                             alt="default image for blog post {{ post.title }}"></a>
                     {% endif %}
 
