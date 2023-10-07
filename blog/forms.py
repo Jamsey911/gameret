@@ -18,15 +18,13 @@ class CommentForm(forms.ModelForm):
 
     def __init__(self, *args, **kwargs):
         """
-        Add placeholders and classes, remove auto-generated
-        labels and set autofocus on first field
+        Add placeholders and class to textfield
         """
         super().__init__(*args, **kwargs)
         placeholders = {
-            'body': '',
+            'body': 'Body',
         }
 
         for field in self.fields:
-            if field != 'country':
-                self.fields[field].widget.attrs['aria-label'] = placeholders[
-                    field]
+            self.fields[field].widget.attrs['aria-label'] = placeholders[
+                        field]
