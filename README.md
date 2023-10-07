@@ -2023,6 +2023,11 @@ Images used can be found at:
 - [Pexels](https://www.pexels.com/)
 - [Amazon](https://www.amazon.co.uk/)
 
+Blog Posts can be found at:
+- [Playstion](https://blog.playstation.com/)
+- [Xbox](https://news.xbox.com/en-us/)
+- [Retro Gamer](https://www.retrogamer.net/category/blog_post/)
+
 
 ### Code
 
