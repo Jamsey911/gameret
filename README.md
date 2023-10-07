@@ -945,7 +945,35 @@ The W3C Markup Validation Service was used to validate the HTML of the website.
 | **Level** | **Feature** | **Issue Description** | **Comment** |
 |-------------|-------------|----------------------|-------------|
 | Error | N/A | N/A | N/A |
-| Warning | N/A | N/A | N/A |  
+| Warning | N/A | N/A | N/A |
+
+<!-- ### Blog 
+
+- No Errors Found
+
+<details><summary>blog.html</summary>
+
+![Blog](docs/validation/blog_html.PNG)
+</details> 
+
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Error | N/A | N/A | N/A |
+| Warning | N/A | N/A | N/A |
+
+### Blog Details
+
+- No Errors Found
+
+<details><summary>blog_details.html</summary>
+
+![Blog Details](docs/validation/blog_details_html.PNG)
+</details> 
+
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Error | N/A | N/A | N/A |
+| Warning | N/A | N/A | N/A | -->
 
 
 ### Sign In 
@@ -1101,6 +1129,33 @@ JSHint javaScript Validation Service was used to validate all javaScript files.
 <details><summary>views.py</summary>
 
 ![Views](docs/validation/bag_views_py.PNG)
+</details>
+
+<hr><summary>Blog</summary>
+
+<details><summary>admin.py</summary>
+
+![Blog Admin](docs/validation/blog_admin_py.png)
+</details>
+
+<details><summary>forms.py</summary>
+
+![Forms](docs/validation/blog_forms_py.png)
+</details>
+
+<details><summary>models.py</summary>
+
+![Models](docs/validation/blog_models_py.png)
+</details>
+
+<details><summary>urls.py</summary>
+
+![Urls](docs/validation/blog_urls_py.png)
+</details>
+
+<details><summary>views.py</summary>
+
+![Views](docs/validation/blog_views_py.png)
 </details>
 
 <hr><summary>Checkout</summary>
@@ -1308,6 +1363,16 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/) wa
 ![About](docs/validation/wave_about.PNG)
 </details> 
 
+<details><summary>Blog</summary>
+
+![Blog](docs/validation/wave_blog.png)
+</details> 
+
+<details><summary>Blog Details</summary>
+
+![Blog Details](docs/validation/wave_blog_details.png)
+</details> 
+
 <details><summary>Profile</summary>
 
 ![Profile](docs/validation/wave_profile.PNG)
@@ -1383,7 +1448,17 @@ Performance, best practices and SEO was tested using Lighthouse.
 <details><summary>About</summary>
 
 ![About](docs/validation/lh_about.PNG)
-</details> 
+</details>
+
+<details><summary>Blog</summary>
+
+![Blog](docs/validation/lh_blog.png)
+</details>
+
+<details><summary>Blog Details</summary>
+
+![Blog Details](docs/validation/lh_blog_details.png)
+</details>
 
 <details><summary>Profile</summary>
 
