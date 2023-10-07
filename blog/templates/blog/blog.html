@@ -14,8 +14,8 @@
     <div class="row blog-header">
         <div class="col-12 col-md-6 order-md-first py-2">
             <p class="text-light mt-3 text-center text-md-left">
-                <span class="small"><a href="{% url 'home' %}" class="category-badge p-1 mt-2 text-decoration-none btn-outline-black">Back to Home</a> | </span>
-                Displaying {{ postings.start_index }}-{{ postings.end_index }} of {{ postings.paginator.count }} Postings            </p>
+                <span class="small"><a href="{% url 'home' %}" class="btn-lg p-1 mt-2 text-decoration-none btn-outline-black">Back to Home</a> | </span>
+                Displaying {{ postings.start_index }}-{{ postings.end_index }} of {{ postings.paginator.count }} Postings</p>
         </div>
     </div>
 
@@ -46,8 +46,6 @@
                         <p class="card-text mt-3 text-white"><em>{{ post.excerpt }}</em></p>
                         <hr>
                         <p class="card-text text-white h6 mb-3">{{ post.created_date }}</p>
-                        <h6 class="h6">{{ post.created_on}} <i class="far fa-heart text-light"></i>
-                            {{ post.number_of_likes }}</h6>
                     </div>
                 </div>
 
@@ -60,16 +58,16 @@
 
                     {% if postings.has_previous %}
 
-                    <a href="?page=1" class="custom-highlight">&laquo First</a>
-                    <a href="?page={{ postings.previous_page_number }}" class="custom-highlight">Previous</a>
+                    <a href="?page=1" class="text-black">&laquo First</a>
+                    <a href="?page={{ postings.previous_page_number }}" class="text-black">Previous</a>
 
                     {% endif %}
                     Page {{ postings.number }} of {{postings.paginator.num_pages }}
 
                     {% if postings.has_next %}
 
-                    <a href="?page={{ postings.next_page_number }}" class="custom-highlight">Next</a>
-                    <a href="?page={{ postings.paginator.num_pages }}" class="custom-highlight">Last &raquo;</a>
+                    <a href="?page={{ postings.next_page_number }}" class="text-black">Next</a>
+                    <a href="?page={{ postings.paginator.num_pages }}" class="text-black">Last &raquo;</a>
 
                     {% endif %}
                 </div>
