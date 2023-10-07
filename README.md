@@ -155,22 +155,22 @@ Gameret uses Mailchimp to manage its mailing list. By joining the mailing list, 
 ## User Stories
 
 
-| User Story ID                  | As A/AN             | I CAN...                                                | SO THAT I CAN...                                          |
-|--------------------------------|---------------------|---------------------------------------------------------|-----------------------------------------------------------|
+| User Story ID | As A/AN | I CAN...  | SO THAT I CAN... |
+|----|---|---|---|
 | Registration and User Accounts ||||
 | 1 | Shopper / Site User | register for an account | have an account and view my profile |
 | 2 | Shopper / Site User | login and logout | have an account with my information stored for fast usage |
-| 3 | Shopper / Site User | recover my password | set a new password if I forgot it                         |
-| 4 | Shopper / Site User | receive an email confirmation after registration| be notified registration was successful                   |
+| 3 | Shopper / Site User | recover my password | set a new password if I forgot it |
+| 4 | Shopper / Site User | receive an email confirmation after registration| be notified registration was successful |
 | 5 | Shopper / Site User | have a profile | store my information for faster checkouts in the future |
 | Viewing and navigation ||||
-| 6 | Shopper / Site User | navigate across the site | can access all parts of the site                          |
-| 7 | Shopper / Site User | use a navbar, footer, and social icons | navigate the site, access menus, and access socials       |
-| 8 | Shopper / Site User | be notified of my actions | be aware the action was completed successfully or not     |
+| 6 | Shopper / Site User | navigate across the site | can access all parts of the site |
+| 7 | Shopper / Site User | use a navbar, footer, and social icons | navigate the site, access menus, and access socials |
+| 8 | Shopper / Site User | be notified of my actions | be aware the action was completed successfully or not |
 | 9 | Shopper / Site User | see my login status | know if I am logged in or not |
 | 10 | Shopper / Site User | visit the shop| view all products available |
 | 11 | Shopper / Site User | view my basket and total cost at any time | so I am aware of what I am buying and it's cost |
-| 12 | Shopper / Site User | view a list of products | select a product to purchase                              |
+| 12 | Shopper / Site User | view a list of products | select a product to purchase |
 | 13 | Shopper / Site User | view an individual product details | view a more detailed view of the product |
 | 14 | Shopper / Site User | view a list of consoles | select a console I want to purchase |
 | 15 | Shopper / Site User | view a list of games | select a game I want to purchase |
@@ -179,12 +179,12 @@ Gameret uses Mailchimp to manage its mailing list. By joining the mailing list, 
 | 17 | Shopper / Site User | view individual consoles | see more detailed information about it |
 | 18 | Shopper / Site User | view individual games | see more detailed information about it |
 | 19 | Shopper / Site User | view individual accessories | see more detailed information about it |
-| 20 | Shopper / Site User | search for a product by name or description | find a certain product                                    |
+| 20 | Shopper / Site User | search for a product by name or description | find a certain product |
 | 21 | Shopper / Site User | see my search results | only see what I am searching for |
 | 22 | Shopper / Site User | sort by price low to high and high to low | view products according to my budget |
 | 23 | Shopper / Site User | Sort products in alphabetical order | search products by letter |
 | Purchasing and Checkout ||||
-| 24 | Shopper / Site User | use a card as the payment method | complete my purchase                                      |
+| 24 | Shopper / Site User | use a card as the payment method | complete my purchase |
 | 25 | Shopper / Site User | select the quantity of a product | select a quantity that suites my needs |
 | 26 | Shopper / Site User | view items in my basket | be aware of what I am buying and it's cost |
 | 27 | Shopper / Site User | adjust item quantity in my basket | increase or reduce item count according to my needs |
@@ -292,8 +292,8 @@ I used Balsamiq to create wireframes for my project. It's a user-friendly wirefr
 
 ## Design
 
-### Colors
 
+### Colors
 
 The colour sheme was chosen as a dark grey and black theme in which i was aided by Adobe Color by using their Split Complementary Color feature. A simple grey and egg-shell white was used to give it contrast which was selected also through adobe color. A slighly dark grey was selected for certain elements in the events page.  
 <details><summary>See Color Palette</summary>
@@ -327,6 +327,8 @@ The home page is designed to have all relevanet information easily accessible wi
   - Checkout
   - Checkout Success
   - About
+  - Blog
+  -Blog Details
   - Register
   - Profile
   - Login
@@ -455,6 +457,35 @@ I built my database using PostgreSQL. It's a powerful and open-source object-rel
 |            | phone        | PhoneNumberField |
 |            | message      | TextField        |  
 |            | date_submm.. | DateTimeField    | 
+
+### Post Model
+
+| Key        | Name           | Type                |
+| ---------- | -------------- | ------------------- |
+|            | title (unique) | Char[200]           |
+|            | slug (unique)  |                     |
+| PrimaryKey | post_id        | AutoField           |
+| ForeignKey | author         | User model          |
+|            | created_date   | DateTime            |
+|            | updated_date   | DateTime            |
+|            | content        | TextField           |
+|            | featured_image | Cloudinary<br>image |
+|            | excerpt        | TextField           |
+|            | status         | Integer             |
+
+### Comment Model
+
+| Key        | Name         | Type                                   |
+| ---------- | ------------ | -------------------------------------- |
+| ForeignKey | post         | Post model<br>Cascade on<br>delete     |
+|            | name         | CharField[80]                          |
+|            | email        | EmailField                             |
+|            | body         | TextField                              |
+|            | created_date | DateTimeField<br>auto_now_<br>add_true |
+|            | approved     | BooleanField<br>default False          |
+|            |              |                                        |
+|            |              |                                        |
+|            | Meta         | created_on                             |
 
 ##### Back to [top](#table-of-contents)
 <hr>
@@ -762,7 +793,8 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 <details><summary>See feature image</summary>
 
 ![Delete Product](docs/features/admin_delete.png)
-</details>  
+</details>
+
 
 ### Contact message
 - Users can send a message via the message form 
@@ -770,9 +802,28 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
   
 <details><summary>See feature images</summary>
 
-
 ![Contact](docs/features/contact.PNG)
 </details>
+
+### Blog
+- Allows user to view a list of blog articles 
+- User stories covered: 32
+
+<details><summary>See feature image</summary>
+
+![Delete Product](docs/features/admin_delete.png)
+</details>  
+
+
+### Blog Details
+- Allows user to view blog details 
+- User stories covered: 32
+
+<details><summary>See feature image</summary>
+
+![Delete Product](docs/features/admin_delete.png)
+</details> 
+
 
 ### Pagination
 - Pagination is used on the products page
@@ -947,13 +998,13 @@ The W3C Markup Validation Service was used to validate the HTML of the website.
 | Error | N/A | N/A | N/A |
 | Warning | N/A | N/A | N/A |
 
-<!-- ### Blog 
+### Blog 
 
 - No Errors Found
 
 <details><summary>blog.html</summary>
 
-![Blog](docs/validation/blog_html.PNG)
+![Blog](docs/validation/blog_html.png)
 </details> 
 
 | **Level** | **Feature** | **Issue Description** | **Comment** |
@@ -967,13 +1018,13 @@ The W3C Markup Validation Service was used to validate the HTML of the website.
 
 <details><summary>blog_details.html</summary>
 
-![Blog Details](docs/validation/blog_details_html.PNG)
+![Blog Details](docs/validation/blog_details_html.png)
 </details> 
 
 | **Level** | **Feature** | **Issue Description** | **Comment** |
 |-------------|-------------|----------------------|-------------|
 | Error | N/A | N/A | N/A |
-| Warning | N/A | N/A | N/A | -->
+| Warning | N/A | N/A | N/A |
 
 
 ### Sign In 
