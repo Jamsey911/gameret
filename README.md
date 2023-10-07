@@ -807,21 +807,30 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 ### Blog
 - Allows user to view a list of blog articles 
-- User stories covered: 32
+<!-- - User stories covered: 32 -->
 
 <details><summary>See feature image</summary>
 
-![Delete Product](docs/features/admin_delete.png)
+![Blog](docs/features/blog_view.png)
 </details>  
 
 
 ### Blog Details
 - Allows user to view blog details 
-- User stories covered: 32
+<!-- - User stories covered: 32 -->
 
 <details><summary>See feature image</summary>
 
-![Delete Product](docs/features/admin_delete.png)
+![Blog Details](docs/features/blog_details.png)
+</details> 
+
+### Blog Comments
+- Allows user to comment an a blog
+<!-- - User stories covered: 32 -->
+
+<details><summary>See feature image</summary>
+
+![Blog Comments](docs/features/blog_comments.png)
 </details> 
 
 
