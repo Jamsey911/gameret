@@ -7,11 +7,12 @@ from django.contrib import messages
 from django.core.paginator import Paginator
 from .models import Post
 from .forms import CommentForm
-from products.models import Product, Category
 
 
-# View for all posts that are published
 class PublishedPosts(generic.ListView):
+    """
+    VIew to show a list of paginated published blogs
+    """
     model = Post
     queryset = Post.objects.filter(status=1).order_by('-created_date')
     template_name = 'blog.html'
@@ -25,12 +26,8 @@ class PublishedPosts(generic.ListView):
         paginator = Paginator(Post.objects.all(), 4)
         page = request.GET.get('page')
         postings = paginator.get_page(page)
-        products = Product.objects.all()
-        categories_list = Category.objects.all()
 
         context = {
-            'products': products,
-            'categories_list': categories_list,
             'posts': posts,
             'postings': postings
         }
@@ -42,23 +39,17 @@ class PublishedPosts(generic.ListView):
         )
 
 
-# View for the post to be read by the user
-
-
 class PostExpand(View):
-
+    """
+    View for the post to be read by the user
+    """
     def get(self, request, slug, *args, **kwargs):
         queryset = Post.objects.filter(status=1)
         post = get_object_or_404(queryset, slug=slug)
         comments = post.comments.filter(
             approved=True).order_by('-created_date')
 
-        products = Product.objects.all()
-        categories_list = Category.objects.all()
-
         context = {
-            'products': products,
-            'categories_list': categories_list,
             'post': post,
             'comments': comments,
             'commented': False,
@@ -72,6 +63,9 @@ class PostExpand(View):
         )
 
     def post(self, request, slug, *args, **kwargs):
+        """
+        View for the post to be read by the user
+        """
         queryset = Post.objects.filter(status=1)
         post = get_object_or_404(
             queryset,

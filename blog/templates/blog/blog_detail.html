@@ -1,6 +1,15 @@
 {% extends 'base.html' %}
 {% load static %}
 
+{% block page_header %}
+<div class="overlay"></div>
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
 {% block content %}
 <div class="container-fluid bg-dark">
     <div class="row blog-header">
@@ -26,7 +35,7 @@
                         <img class="card-img-top my-2" src="{{ post.featured_image.url }}" alt="image for blog post {{ post.title }}"></a>
                     {% else %}
                     <a href="{% url 'post_detail' post.slug %}">
-                        <img class="card-img-top my-2" src="{% static 'img/default-image.jpg' %}"
+                        <img class="card-img-top my-2" src="{{ MEDIA_URL }}placeholder_image.png"
                             alt="default image for blog post {{ post.title }}"></a>
                     {% endif %}
                     {{ post.content| safe }}
