@@ -274,6 +274,9 @@ I used Balsamiq to create wireframes for my project. It's a user-friendly wirefr
 <details><summary>About</summary>
 <img src="docs/wireframes/about.png">
 </details>
+<!-- <details><summary>Blog</summary>
+<img src="docs/wireframes/blog.png">
+</details> -->
 <details><summary>Sign in</summary>
 <img src="docs/wireframes/signin.png">
 </details>

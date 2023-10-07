@@ -58,16 +58,16 @@
 
                     {% if postings.has_previous %}
 
-                    <a href="?page=1" class="text-black">&laquo First</a>
-                    <a href="?page={{ postings.previous_page_number }}" class="text-black">Previous</a>
+                    <a href="?page=1" class="text-black text-decoration-underline">&laquo First</a>
+                    <a href="?page={{ postings.previous_page_number }}" class="text-black text-decoration-underline ">Previous</a>
 
                     {% endif %}
                     Page {{ postings.number }} of {{postings.paginator.num_pages }}
 
                     {% if postings.has_next %}
 
-                    <a href="?page={{ postings.next_page_number }}" class="text-black">Next</a>
-                    <a href="?page={{ postings.paginator.num_pages }}" class="text-black">Last &raquo;</a>
+                    <a href="?page={{ postings.next_page_number }}" class="text-black text-decoration-underline">Next</a>
+                    <a href="?page={{ postings.paginator.num_pages }}" class="text-black text-decoration-underline">Last &raquo;</a>
 
                     {% endif %}
                 </div>
