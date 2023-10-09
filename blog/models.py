@@ -48,12 +48,6 @@ class Post(models.Model):
         """
         return self.title
 
-    def like_count(self):
-        """
-        Returns the amount of likes to the blog
-        """
-        return self.likes.count()
-
 
 class Comment(models.Model):
     """

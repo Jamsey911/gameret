@@ -274,9 +274,12 @@ I used Balsamiq to create wireframes for my project. It's a user-friendly wirefr
 <details><summary>About</summary>
 <img src="docs/wireframes/about.png">
 </details>
-<!-- <details><summary>Blog</summary>
+<details><summary>Blog</summary>
 <img src="docs/wireframes/blog.png">
-</details> -->
+</details>
+<details><summary>Blog Details</summary>
+<img src="docs/wireframes/blog_detail.png">
+</details>
 <details><summary>Sign in</summary>
 <img src="docs/wireframes/signin.png">
 </details>
@@ -327,8 +330,8 @@ The home page is designed to have all relevanet information easily accessible wi
   - Checkout
   - Checkout Success
   - About
-  - Blog
-  -Blog Details
+  - Blog 
+  - Blog Details
   - Register
   - Profile
   - Login
@@ -1976,6 +1979,11 @@ Performance, best practices and SEO was tested using Lighthouse.
 <details><summary> Bag, test_views.py</summary>
 
 ![Bag Test Views](docs/testing/bag_test_views.PNG)
+</details> 
+
+<details><summary> Blog, test_views.py</summary>
+
+![Blog Test Views](docs/testing/blog_test_views.PNG)
 </details> 
 
 <details><summary> Checkout, test_forms.py</summary>
