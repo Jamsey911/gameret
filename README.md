@@ -1221,6 +1221,11 @@ JSHint javaScript Validation Service was used to validate all javaScript files.
 ![Views](docs/validation/blog_views_py.png)
 </details>
 
+<details><summary>test_models.py</summary>
+
+![Test Models](docs/validation/test_blog_models_py.PNG)
+</details>
+
 <hr><summary>Checkout</summary>
 
 <details><summary>admin.py</summary>
