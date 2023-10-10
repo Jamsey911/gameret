@@ -3,8 +3,13 @@ from django import template
 
 register = template.Library()
 
+
 @register.simple_tag
 def relative_url(value, field_name, urlencode=None):
+    """
+    Required to show the next page from the search query
+    rather than the show all products query
+    """
     url = '?{}={}'.format(field_name, value)
     if urlencode:
         querystring = urlencode.split('&')
