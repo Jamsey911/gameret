@@ -183,6 +183,9 @@ Gameret uses Mailchimp to manage its mailing list. By joining the mailing list, 
 | 21 | Shopper / Site User | see my search results | only see what I am searching for |
 | 22 | Shopper / Site User | sort by price low to high and high to low | view products according to my budget |
 | 23 | Shopper / Site User | Sort products in alphabetical order | search products by letter |
+| 35 | Shopper / Site User / Admin | subscribe to a newsletter | Keep updated with the latest new from the store |
+| 36 | Site User | view posts from the blog section | see details related with the site |
+| 37 | Site User | leave comments on a post | be involved in the conversation |
 | Purchasing and Checkout ||||
 | 24 | Shopper / Site User | use a card as the payment method | complete my purchase |
 | 25 | Shopper / Site User | select the quantity of a product | select a quantity that suites my needs |
@@ -810,7 +813,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 ### Blog
 - Allows user to view a list of blog articles 
-<!-- - User stories covered: 32 -->
+- User stories covered: 36
 
 <details><summary>See feature image</summary>
 
@@ -820,7 +823,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 ### Blog Details
 - Allows user to view blog details 
-<!-- - User stories covered: 32 -->
+- User stories covered: 36
 
 <details><summary>See feature image</summary>
 
@@ -829,7 +832,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 ### Blog Comments
 - Allows user to comment an a blog
-<!-- - User stories covered: 32 -->
+- User stories covered: 37
 
 <details><summary>See feature image</summary>
 
@@ -2120,29 +2123,94 @@ add endpoint
 
 1. Log in to [Heroku](https://id.heroku.com) or create an account
 
+<details><summary>View Image</summary>
+
+![Heroku Sign Up Page](docs/heroku/h_1.png)
+</details> 
+
 2. On the main page click the "New" in the top right corner and select Create New App from the drop dwon menu
+
+<details><summary>View Image</summary>
+
+![Heroku Sign Up Page](docs/heroku/h_2.png)
+</details> 
 
 3. No name can be duplicated so choose an original title
 
+<details><summary>View Image</summary>
+
+![Heroku New App Page](docs/heroku/h_3.png)
+</details> 
+
 4. Choose the region where you are based
+
+<details><summary>View Image</summary>
+
+![Heroku New App Page](docs/heroku/h_4.png)
+</details> 
 
 5. Click the create new app input
 
+<details><summary>View Image</summary>
+
+![Heroku New App Page](docs/heroku/h_5.png)
+</details> 
+
 6. Choose the settings Tab then select config vars to enter in values
 
-7. Click Reveal Config Vars and choose a port for the key label, 8000 for the value labal and then choose add.  
+<details><summary>View Image</summary>
+
+![Heroku New App Page](docs/heroku/h_6.png)
+</details> 
+
+7. Click Reveal Config Vars and ensure the following environment variables are set in Heroku
+
+<details><summary>View Image</summary>
+
+![Heroku New App Page](docs/heroku/h_7.png)
+</details>
 
 8. Next, scroll down to the Buildpack section click Add Buildpack select python and click Save Changes
 
+<details><summary>View Image</summary>
+
+![Heroku New App Page](docs/heroku/h_8.png)
+</details>
+
 9. Click add buildpacks and selct heroku/python and node.js(Must be in this order, they can be clicked and dragged if they need to be changed)
+
+<details><summary>View Image</summary>
+
+![Heroku New App Page](docs/heroku/h_9.png)
+</details>
 
 10. Next select the deploy tab near the top of the page
 
+<details><summary>View Image</summary>
+
+![Heroku New App Page](docs/heroku/h_10.png)
+</details>
+
 11. Choose Github as the deployment method
+
+<details><summary>View Image</summary>
+
+![Heroku New App Page](docs/heroku/h_11.png)
+</details>
 
 12. Select the repository name and then the connect button
 
+<details><summary>View Image</summary>
+
+![Heroku New App Page](docs/heroku/h_12.png)
+</details>
+
 13. At the bottom of the deploy page, select the preferred deployment type (Enable Automatic Deploys for automatic deployment or deploy from branch to push the deployment manually)
+
+<details><summary>View Image</summary>
+
+![Heroku New App Page](docs/heroku/h_13.png)
+</details>
 
 ### Forking This Project
 
