@@ -26,6 +26,9 @@ class Contact(models.Model):
     date_submmited = models.DateTimeField(auto_now_add=True)
 
     class Meta:
+        """
+        Setting the oder of the blogs displayed to date submitted
+        """
         ordering = ['-date_submmited']
 
     def __str__(self) -> str:

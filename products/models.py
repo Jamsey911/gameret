@@ -31,6 +31,7 @@ class Product(models.Model):
     """
     Product model details
     """
+
     category = models.ForeignKey('Category',
                                  null=True,
                                  blank=True,
