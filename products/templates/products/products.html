@@ -23,8 +23,14 @@
 <div class="overlay"></div>
 <div class="container-fluid bg-dark">
     <div class="row">
-        <div class="col text-center mt-3">
-            <h2 class="logo-font">Products</h2>
+        <div class="col text-center mt-4">
+            {% if current_categories|length != 1 or search_term %}
+                <h2 class="logo-font">Products</h2>
+            {% else %}
+                {% for c in current_categories %}
+                    <h2 class="logo-font">{{ c.friendly_name }}</h2>
+                {% endfor %}
+            {% endif %}
             {% for c in current_categories %}
                 <a class="category-badge text-decoration-none" href="{% url 'products' %}?category={{ c.name }}">
                     <span class="p-2 mt-2 badge text-black rounded-0 border border-dark btn-outline-black">{{ c.friendly_name }}</span>
@@ -60,6 +66,12 @@
                     </p>
                 </div>
             </div>
+            {% if products|length == 0 %}
+                <div class="col text-center mt-4">
+                    <h2 class="text-light mb-5">No products found, please try again.</h2>
+                    <span class="small"><a href="{% url 'products' %}" class="btn-lg p-2 text-decoration-none btn-outline-black">Products Home</a> | </span>
+                </div>
+            {% endif %}
             <div class="row">
                 {% for product in products %}
                     <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 bg-dark py-2 products-card">
@@ -135,7 +147,9 @@
                 <a href="{% relative_url products.previous_page_number 'page' request.GET.urlencode %}" class="pagination-underline">Previous</a>
     
                 {% endif %}
+                {% if products|length != 0 %}
                 <p class="text-light mb-0">Page {{ products.number }} of {{ products.paginator.num_pages }}</p>
+                {% endif %}
     
                 {% if products.has_next %}
     
