@@ -257,15 +257,9 @@ Gameret uses Mailchimp to manage its mailing list. By joining the mailing list, 
 I used Balsamiq to create wireframes for my project. It's a user-friendly wireframing tool that enables me to quickly and easily create mockups for my website or application. It offers a wide range of pre-built UI elements, and allows for easy collaboration with my team. I linked a pdf of my wireframes, which you can access it and check it out the design, layout and the flow of the project before implementing it in the real product.  
 
 
-<a href="https://github.com/jamsey911/gameret/raw/main/docs/wireframes/wireframes_mockup.pdf" target="_blank">Download Wireframes PDF</a>  
+<a href="https://github.com/jamsey911/gameret/raw/main/docs/wireframes/wireframes_mockup.pdf" target="_blank">Wireframes Mockup PDF</a>  
 (Ctrl + click to open in new tab)
 
-💻 [Wireframes Mockup PDF](docs/wireframes/wireframes_mockup.pdf)  
-(Ctrl + click to open in new tab)
-
-<details><summary>Wireframes Mockup PDF</summary>
-<img src="docs/wireframes/wireframes_mockup.pdf">
-</details>
 <details><summary>Home</summary>
 <img src="docs/wireframes/home.png">
 </details>
