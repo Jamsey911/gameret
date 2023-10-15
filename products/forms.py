@@ -11,6 +11,10 @@ class ProductForm(forms.ModelForm):
     Products form for admin
     """
     class Meta:
+        """
+        Renaming the model and grouping the fileds for the 
+        productform
+        """
         model = Product
         fields = '__all__'
 

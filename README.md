@@ -258,7 +258,7 @@ I used Balsamiq to create wireframes for my project. It's a user-friendly wirefr
 
 
 <a href="https://github.com/jamsey911/gameret/raw/main/docs/wireframes/wireframes_mockup.pdf" target="_blank">Wireframes Mockup PDF</a>  
-(Ctrl + click to open in new tab)
+(Click To Download Wireframes)
 
 <details><summary>Home</summary>
 <img src="docs/wireframes/home.png">
@@ -313,7 +313,7 @@ The colour sheme was chosen as a dark grey and black theme in which i was aided 
 
 ### Fonts
 
- The font selected was from Google Fonts, Roboto.
+ The font selected was from Google Fonts, Rubix.
 
  <details><summary>See Font Image</summary>
 
@@ -515,7 +515,9 @@ I built my database using PostgreSQL. It's a powerful and open-source object-rel
 
 - [Am I Responsive](http://ami.responsivedesign.is/)
 - [Balsamiq](https://balsamiq.com/)
-- [Bootstrap v5.2](https://getbootstrap.com/)
+- [Bootstrap v4.4
+
+](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
 - [Cloudinary](https://cloudinary.com/)
 - [Favicon.io](https://favicon.io)
 - [Chrome dev tools](https://developers.google.com/web/tools/chrome-devtools/)
@@ -579,7 +581,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 </details>
 
 ### Card Links
-- Allows the user to easy access filters  
+- Allows the user to easy access filtered sections. 
 - User stories covered: 6, 12, 14, 15, 16
 
 <details><summary>See feature image</summary>
@@ -588,7 +590,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 </details>
 
 ### Footer
-- Contains social media links, privacy policy, and copyright.
+- Contains social media links, email subscription, privacy policy, and copyright.
 - displayed on home page and about page 
 - User stories covered: 6, 7
 
@@ -684,7 +686,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 
 ### Edit Product Quantity
-- Allows the user to edit their bookings.  
+- Allows the user to edit their the product amount.  
 - User stories covered: 25, 27
 
 <details><summary>See feature image</summary>
@@ -695,7 +697,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 
 ### Remove Product From Bag
-- Allows the user to cancel their bookings.  
+- Allows the user to remove a product from their bag.  
 - User stories covered: 25, 27
 
 <details><summary>See feature image</summary>
@@ -787,7 +789,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 
 ### Edit Product
-- Allows the user to edit the products.  
+- Allows the Admin to edit the products.  
 - User stories covered: 31
 
 <details><summary>See feature image</summary>
@@ -797,12 +799,13 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 
 ### Delete Product
-- Allows the user to delete products, includes confirmation prompt before deletion.  
+- Allows the Admin to delete products, includes confirmation prompt before deletion.  
 - User stories covered: 32
 
 <details><summary>See feature image</summary>
 
 ![Delete Product](docs/features/admin_delete.png)
+![Confirmation Prompt Product](docs/features/confirmation_prompt.PNG)
 </details>
 
 
@@ -2054,11 +2057,11 @@ The website was tested on the following browsers:
 
 | **Bug** | **Fix** |
 | ------- | ------- |
-| Accessibility Validation for image field in add procut view  | Added alt test to widget |
-| Pagination for filtered querys returnig all products on 2nd page | Altered links in html and added pag_filter into templatetags |
-| Overlay not showing when deleting product | Added javascript to resolve this |
-| Contact form shoing 404 when sent | Updated migrations and updated workspace variables |
-| Confirmation eamil showing default message | Updated domain in admin |
+| Accessibility Validation for image field in add product view  | Added alt tag to custom clearable file input widget file|
+| Pagination for filtered querys returnig all products on 2nd page | Altered links in html and added page filter into templatetags |
+| Prompt not displaying when deleting product | Added javascript to target the ID of the element to resolve this |
+| Contact form showing 404 when sent | Updated migrations and updated workspace variables |
+| Confirmation eamil showing default message | Updated domain name in django admin |
 
 ##### Back to [top](#table-of-contents)
 
