@@ -54,7 +54,7 @@ Gameret is a web-based platform that video game lovers can view and purchase old
 
 Our target market is video game lovers of all ages. We aim to differentiate ourselves from competitors by offering a more easy to use and intuitive platform, as well varied scale of products.
 
-Overall, Gsmeret aims to become the go-to destination for gamers looking to purchase video game products, as well as a trusted and reliable platform to use.
+Overall, Gameret aims to become the go-to destination for gamers looking to purchase video game products, as well as a trusted and reliable platform to use.
 
 ### Market Analysis:
 
@@ -175,6 +175,9 @@ Gameret uses Mailchimp to manage its mailing list. By joining the mailing list, 
 | 14 | Shopper / Site User | view a list of consoles | select a console I want to purchase |
 | 15 | Shopper / Site User | view a list of games | select a game I want to purchase |
 | 16 | Shopper / Site User | view a list of accessories | select an accessory I want to purchase |
+| 35 | Shopper / Site User / Admin | subscribe to a newsletter | Keep updated with the latest new from the store |
+| 36 | Site User | view posts from the blog section | see details related with the site |
+| 37 | Site User | leave comments on a post | be involved in the conversation |
 | Sorting and Searching ||||
 | 17 | Shopper / Site User | view individual consoles | see more detailed information about it |
 | 18 | Shopper / Site User | view individual games | see more detailed information about it |
@@ -183,9 +186,6 @@ Gameret uses Mailchimp to manage its mailing list. By joining the mailing list, 
 | 21 | Shopper / Site User | see my search results | only see what I am searching for |
 | 22 | Shopper / Site User | sort by price low to high and high to low | view products according to my budget |
 | 23 | Shopper / Site User | Sort products in alphabetical order | search products by letter |
-| 35 | Shopper / Site User / Admin | subscribe to a newsletter | Keep updated with the latest new from the store |
-| 36 | Site User | view posts from the blog section | see details related with the site |
-| 37 | Site User | leave comments on a post | be involved in the conversation |
 | Purchasing and Checkout ||||
 | 24 | Shopper / Site User | use a card as the payment method | complete my purchase |
 | 25 | Shopper / Site User | select the quantity of a product | select a quantity that suites my needs |
@@ -256,6 +256,16 @@ Gameret uses Mailchimp to manage its mailing list. By joining the mailing list, 
 ## Wireframes
 I used Balsamiq to create wireframes for my project. It's a user-friendly wireframing tool that enables me to quickly and easily create mockups for my website or application. It offers a wide range of pre-built UI elements, and allows for easy collaboration with my team. I linked a pdf of my wireframes, which you can access it and check it out the design, layout and the flow of the project before implementing it in the real product.  
 
+
+<a href="https://github.com/jamsey911/gameret/raw/main/docs/wireframes/wireframes_mockup.pdf" target="_blank">Download Wireframes PDF</a>  
+(Ctrl + click to open in new tab)
+
+💻 [Wireframes Mockup PDF](docs/wireframes/wireframes_mockup.pdf)  
+(Ctrl + click to open in new tab)
+
+<details><summary>Wireframes Mockup PDF</summary>
+<img src="docs/wireframes/wireframes_mockup.pdf">
+</details>
 <details><summary>Home</summary>
 <img src="docs/wireframes/home.png">
 </details>
