@@ -14,7 +14,7 @@ body {
     background: url('/media/background_cropped.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
-    color: #222;
+    color: #fdfdf6;
     font-family: 'Rubik', sans-serif;
     background-color: #343a40;
 }
@@ -32,17 +32,12 @@ h5 {
     color: #65DAEC;
 }
 
-.custom-danger {
-    color: #EC939C !important; 
+.custom-delete {
+    color: #7D1C23 !important; 
 }
 
-/* from Bulma */
-.icon {
-    align-items: center;
-    display: inline-flex;
-    justify-content: center;
-    height: 1.5rem;
-    width: 1.5rem;
+.custom-danger {
+    color: #EC939C !important; 
 }
 
 .main-logo-text {
@@ -182,6 +177,7 @@ a.category-badge > span.badge:hover {
 .remove-item {
     cursor: pointer;
 }
+
 .blog-pagination {
     flex-direction: column
 }
@@ -208,6 +204,17 @@ a.category-badge > span.badge:hover {
 .navbar-mobile {
     padding-left: 0px;
 }
+
+/* from Bulma */
+.icon {
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+
 
 /* Offsets blog header from navbar */
 .blog-header{
@@ -380,7 +387,7 @@ a.category-badge > span.badge:hover {
 }
 
 .allauth-form-inner-content a {
-	color: #6CDDEF; /* text-info */
+	color: #6CDDEF;
 }
 
 /* Product Form */

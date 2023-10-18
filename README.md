@@ -62,7 +62,7 @@ The gaming industry is a multi-billion euro industry, with a large and dedicated
 
 In terms of competition, Gameret will face other online ecommerce platforms as well as traditional methods of purchasing. However, we believe that our user-friendly platform and wide range of products in our ecommerce shop will differentiate us from competitors and make us a preferred choice for gamers.
 
-In terms of target market, our primary focus will be video game lovers of all ages. We will also target collectors and online groups as potential customers for our software, as these organizations are constantly seeking rare and collectable pieces.
+In terms of target market, our primary focus will be video game enthusiasts of all ages. We will also target collectors and online groups as potential customers for our software, as these organizations are constantly seeking rare and collectable pieces.
 
 ### Marketing and Sales Strategy:
 

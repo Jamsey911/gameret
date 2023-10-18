@@ -3,6 +3,10 @@
     overflow-y: auto;
 }
 
+.confirmation-id:hover {
+   color: #aab7c4
+}
+
 #profile-update-form .form-control {
     color: #000;
 }

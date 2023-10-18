@@ -25,11 +25,8 @@
                     </span>
                 </button>
             </div>
-            {% if item.product.has_sizes %}
-                <input type="hidden" name="product_size" value="{{ item.size }}">
-            {% endif %}
         </div>
     </div>
 </form>
-<a class="update-link text-info" aria-label="Update quantity button"><small>Update</small></a>
+<a class="update-link text-info" aria-label="Update quantity button"><small class="custom-highlight">Update</small></a>
 <a class="remove-item custom-danger float-right" id="remove_{{ item.item_id }}" data-product_size="{{ item.size }}" aria-label="Remove product button"><small>Remove</small></a>
