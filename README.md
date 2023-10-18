@@ -50,9 +50,9 @@
 ## Business Plan  
 ### Executive Summary:
 
-Gameret is a web-based platform that video game lovers can view and purchase old and new products in the video game industry. It offers a convenient ecommerce shop with a easy-to-use platform for purchasing products as well as a contact page for inquiries and support.
+Gameret is a web-based platform that video game enthusiasts can view and purchase old and new products in the video game industry. It offers a convenient ecommerce shop with a easy-to-use platform for purchasing products as well as a contact page for inquiries and support.
 
-Our target market is video game lovers of all ages. We aim to differentiate ourselves from competitors by offering a more easy to use and intuitive platform, as well varied scale of products.
+Our target market is video game enthusiasts of all ages. We aim to differentiate ourselves from competitors by offering a more easy to use and intuitive platform, as well varied scale of products.
 
 Overall, Gameret aims to become the go-to destination for gamers looking to purchase video game products, as well as a trusted and reliable platform to use.
 
@@ -132,7 +132,7 @@ Gameret uses Mailchimp to manage its mailing list. By joining the mailing list, 
 ## User Experience
 
 ### Target Audience
-- Gaming enthusiasts who are interested in gaming related products.
+- Gaming lovers who are interested in gaming related products.
 - Gaming Collecters who look to find rare or valuable piceses.
 - Individuals who are looking for information and resources related to speicic gaming products.
 - Any individual who is interested in purchasing gaming related products through the app's ecommerce shop.
