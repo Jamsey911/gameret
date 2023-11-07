@@ -515,9 +515,7 @@ I built my database using PostgreSQL. It's a powerful and open-source object-rel
 
 - [Am I Responsive](http://ami.responsivedesign.is/)
 - [Balsamiq](https://balsamiq.com/)
-- [Bootstrap v4.4
-
-](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+- [Bootstrap v4.4](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
 - [Cloudinary](https://cloudinary.com/)
 - [Favicon.io](https://favicon.io)
 - [Chrome dev tools](https://developers.google.com/web/tools/chrome-devtools/)
